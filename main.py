@@ -1,16 +1,25 @@
-import urllib.request
-import urllib.parse
+# -*- coding: utf-8 -*-
+from stock.stock import Stock 
+from data.data import Data
 
-headers={
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
-}
+stock_manager = Stock()
 
-dict = {
-    'test':'hello word'
-}
+def stock_monitor_run():
+    # 启动列表监控
+    pass
 
-data = bytes(urllib.parse.urlencode(dict), encoding='utf-8')
-request = urllib.request.Request("http://httpbin.org/post", data=data, headers=headers)
-response = urllib.request.urlopen(request)
+def stock_list_setup():
+    # 检查本地股票列表信息
 
-print(response.read().decode('utf-8'))
+    # 根据列表信息，创建股票对象
+
+    # 返回股票对象列表信息
+
+    pass
+
+if __name__=='_main_':
+    pass
+
+
+
+

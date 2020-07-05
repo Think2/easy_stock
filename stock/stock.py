@@ -12,13 +12,24 @@ class Stock():
             for code in stocks:
                 data = StockData(code)
                 self.stock_list.append(data)
-        self.get_data_func=None
     
     def add_code(self, code):
-        self.stock_list.append(code)
+        data = StockData(code)
+        self.stock_list.append(data)
 
     def del_code(self, code):
-        self.stock_list.remove(code)
+        for data in self.stock_list:
+            if code==data.code:
+                self.stock_list.remove(data)
+                break
+
+    def check_unique_stock_list(self):
+        data = self.stock_list
+        for i in range(0, len(data)):
+            for y in range(i+1, len(data)):
+                if data[y].code==data[i].code:
+                    print('check unique..del %s' % data[y].code)
+                    self.stock_list.remove(data[y])
 
     def get_hist_data(self, code, start_time, end_time):
         if code in self.stock_list:

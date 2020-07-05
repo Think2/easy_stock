@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
+import time
 
 class StockData():
-    def __init__(self, code, name=None):
+    def __init__(self, code, name=''):
         self.code = code  #代码
         self.name = name  #名字
         self.open = 0     #开盘价
@@ -10,7 +11,7 @@ class StockData():
         self.low = 0      #最低价
         self.volume = 0   #成交量
         self.turnover = 0   #换手率
-        self.change = 0.0   #涨跌幅
+        self.p_change = 0.0   #涨跌幅
 
         self.is_flush = 0   #数据是否为最新
         self.flush_time = 0 #数据刷新时间
@@ -33,4 +34,11 @@ class StockData():
 
     def get_flush_time(self):
         return self.flush_time
+
+    def set_flush_time(self, time=''):
+        if time =='':
+            self.flush_time = time.strftime('%Y-%m-%d %H-%M-%S')
+        else:
+            self.flush_time = time
+        return self.flush_time 
 
