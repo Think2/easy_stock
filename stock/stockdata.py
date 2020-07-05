@@ -26,7 +26,7 @@ class StockData():
         d.update({'low':self.low})
         d.update({'volume':self.volume})
         d.update({'turnover':self.turnover})
-        d.update({'change':self.change})
+        d.update({'change':self.p_change})
         return d 
 
     def is_data_flush(self):

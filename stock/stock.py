@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from .stock import StockData
+from .stockdata import StockData
+from .crawler import CrawlerMannager
 
 class Stock():
     '''stock api midle SDK, to get some data from ohter api
@@ -14,14 +15,22 @@ class Stock():
                 self.stock_list.append(data)
     
     def add_code(self, code):
+        print('add code: %s' % code)
         data = StockData(code)
         self.stock_list.append(data)
 
     def del_code(self, code):
         for data in self.stock_list:
             if code==data.code:
+                print('del code: %s' % code)
                 self.stock_list.remove(data)
                 break
+
+    def get_stock_obj(self, code):
+        for i in range(0, len(self.stock_list)):
+            if self.stock_list[i].code == code:
+                return self.stock_list[i]
+        return None
 
     def check_unique_stock_list(self):
         data = self.stock_list
@@ -38,11 +47,14 @@ class Stock():
             return dict()
 
     def get_real_data(self, code):
-        if code in self.stock_list:
-            pass
-        else:
-            return dict()
+        sk = self.get_stock_obj()
+        if sk is not None:
+            return sk.get_data()
 
+    def run(self):
+        # 提交列表信息数据给爬虫，实时获取数据
+        crawler = CrawlerManager(self.stock_list)
+        crawler.run()
 
 
 

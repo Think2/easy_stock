@@ -1,16 +1,42 @@
-import urllib.request
-import urllib.parse
+# -*- coding: utf-8 -*-
 
-headers={
-    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
-}
+import os
+import requests
+import re
+from bs4 import BeautifulSoup
 
-dict = {
-    'test':'hello word'
-}
+from ..tools import log
+log = log.get_logger()
 
-data = bytes(urllib.parse.urlencode(dict), encoding='utf-8')
-request = urllib.request.Request("http://httpbin.org/post", data=data, headers=headers)
-response = urllib.request.urlopen(request)
 
-print(response.read().decode('utf-8'))
+class CrawlerManager():
+    def __init__(self, stock_objs):
+        self.sk_objs = stock_objs
+
+    # 增加未爬取的url
+    def add_new_urls(self, url):
+        pass
+
+    # 判断是否还有未爬取的url
+    def has_new_urls(self):
+        pass
+
+    # 获取未爬取的url
+    def get_new_urls(self):
+        pass
+
+    # 获取未爬取剩余url数量
+    def new_urls_size(self):
+        pass
+
+    # 获取已经爬取剩余url数量
+    def old_urls_size(self):
+        pass
+
+    def run(self):
+        pass
+
+
+
+if __name__ == '__main__':
+    main()
