@@ -18,3 +18,4 @@ logger.addHandler(console)
 
 def get_logger():
     return logger
+

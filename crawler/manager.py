@@ -5,7 +5,10 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-from ..tools import log
+import sys
+tools_dir = os.path.abspath('../tools')
+sys.path.append(tools_dir)
+import log
 log = log.get_logger()
 
 
@@ -39,4 +42,4 @@ class CrawlerManager():
 
 
 if __name__ == '__main__':
-    main()
+    pass

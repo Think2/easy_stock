@@ -8,12 +8,10 @@
 
 import os
 import csv
-
-default_list = ['600642']
+import pandas
 
 class Data():
     def __init__(self, file = ''):
-        self.default_list = default_list 
         self.file_name = file
 
     def is_has_file(self, file):
@@ -30,16 +28,18 @@ class Data():
                 data.append(row[0].strip())
         return data
 
-    def save_data_to_file(self, file, data):
+    def save_data_to_file(self, data, file=''):
+        if file == '':
+            file = self.file_name
         with open(file, 'w', newline='') as f:
             writer = csv.writer(f)
             for row in data:
-                writer.writerow(row)
+                writer.writerow([row])
 
     def get_stock_list(self):
         file = self.file_name
         if self.is_has_file(file):
             return self.get_file_data(file)
         else:
-            return self.default_list
+            return None 
 

@@ -1,0 +1,753 @@
+2020-07-11 21:51:26,987 - INFO - run main
+2020-07-11 21:51:26,990 - INFO - start to setup stock list
+2020-07-11 21:54:22,883 - INFO - run main
+2020-07-11 21:54:22,884 - INFO - start to setup stock list
+2020-07-11 21:55:00,560 - INFO - run main
+2020-07-11 21:55:00,561 - INFO - start to setup stock list
+2020-07-11 21:57:56,518 - INFO - run main
+2020-07-11 21:57:56,519 - INFO - start to setup stock list
+2020-07-11 21:57:59,646 - INFO - start to run stock nonitor
+2020-07-11 21:59:58,844 - INFO - run main
+2020-07-11 21:59:58,845 - INFO - start to setup stock list
+2020-07-11 22:00:30,068 - INFO - start to run stock nonitor
+2020-07-11 22:06:33,849 - INFO - run main
+2020-07-11 22:06:33,850 - INFO - start to setup stock list
+2020-07-11 22:06:43,465 - INFO - start to run stock nonitor
+2020-07-11 22:11:58,258 - INFO - run main
+2020-07-11 22:11:58,260 - INFO - start to setup stock list
+2020-07-11 22:12:05,114 - INFO - start to run stock nonitor
+2020-07-11 22:12:48,150 - INFO - run main
+2020-07-11 22:12:48,151 - INFO - start to setup stock list
+2020-07-11 22:12:54,785 - INFO - start to run stock nonitor
+2020-07-11 22:13:01,742 - INFO - run main
+2020-07-11 22:13:01,743 - INFO - start to setup stock list
+2020-07-11 22:13:06,900 - INFO - start to run stock nonitor
+2020-07-11 22:15:12,380 - INFO - run main
+2020-07-11 22:15:12,381 - INFO - start to setup stock list
+2020-07-11 22:15:20,698 - INFO - start to run stock nonitor
+2020-07-11 22:16:39,245 - INFO - run main
+2020-07-11 22:16:39,246 - INFO - start to setup stock list
+2020-07-11 22:16:40,277 - INFO - start to run stock nonitor
+2020-07-11 22:17:35,305 - INFO - run main
+2020-07-11 22:17:35,306 - INFO - start to setup stock list
+2020-07-11 22:17:36,164 - INFO - start to run stock nonitor
+2020-07-11 22:19:37,115 - INFO - run main
+2020-07-11 22:19:37,115 - INFO - start to setup stock list
+2020-07-11 22:19:47,928 - INFO - start to run stock nonitor
+2020-07-11 22:21:19,546 - INFO - run main
+2020-07-11 22:21:19,547 - INFO - start to setup stock list
+2020-07-11 22:21:20,402 - INFO - start to run stock nonitor
+2020-07-11 22:22:03,740 - INFO - run main
+2020-07-11 22:22:03,741 - INFO - start to setup stock list
+2020-07-11 22:22:04,974 - INFO - start to run stock nonitor
+2020-07-11 22:23:44,271 - INFO - run main
+2020-07-11 22:23:44,273 - INFO - start to setup stock list
+2020-07-11 22:23:45,015 - INFO - start to run stock nonitor
+2020-07-11 22:24:13,605 - INFO - run main
+2020-07-11 22:24:13,607 - INFO - start to setup stock list
+2020-07-11 22:24:15,158 - INFO - start to run stock nonitor
+2020-07-11 22:24:56,246 - INFO - run main
+2020-07-11 22:24:56,247 - INFO - start to setup stock list
+2020-07-11 22:24:56,711 - INFO - start to run stock nonitor
+2020-07-11 22:27:14,468 - INFO - run main
+2020-07-11 22:27:14,469 - INFO - start to setup stock list
+2020-07-11 22:27:52,399 - INFO - run main
+2020-07-11 22:27:52,399 - INFO - start to setup stock list
+2020-07-11 22:29:06,145 - INFO - run main
+2020-07-11 22:29:06,146 - INFO - start to setup stock list
+2020-07-11 22:29:48,731 - INFO - run main
+2020-07-11 22:29:48,732 - INFO - start to setup stock list
+2020-07-11 22:29:59,438 - INFO - run main
+2020-07-11 22:29:59,439 - INFO - start to setup stock list
+2020-07-11 22:31:29,357 - INFO - run main
+2020-07-11 22:31:29,358 - INFO - start to setup stock list
+2020-07-11 22:31:39,004 - INFO - run main
+2020-07-11 22:31:39,006 - INFO - start to setup stock list
+2020-07-11 22:32:07,774 - INFO - run main
+2020-07-11 22:32:07,776 - INFO - start to setup stock list
+2020-07-11 22:32:08,237 - INFO - start to run stock nonitor
+2020-07-11 22:32:23,232 - INFO - run main
+2020-07-11 22:32:23,233 - INFO - start to setup stock list
+2020-07-11 22:34:27,965 - INFO - run main
+2020-07-11 22:34:27,965 - INFO - start to setup stock list
+2020-07-11 22:34:29,322 - INFO - start to run stock nonitor
+2020-07-11 22:36:38,559 - INFO - run main
+2020-07-11 22:36:38,560 - INFO - start to setup stock list
+2020-07-11 22:36:39,668 - INFO - start to run stock nonitor
+2020-07-12 14:42:55,871 - INFO - run main
+2020-07-12 14:42:56,267 - INFO - start to setup stock list
+2020-07-12 14:43:43,698 - INFO - run main
+2020-07-12 14:43:44,070 - INFO - start to setup stock list
+2020-07-12 14:43:44,071 - INFO - start to run stock nonitor
+2020-07-12 14:45:40,962 - INFO - run main
+2020-07-12 14:45:41,289 - INFO - start to setup stock list
+2020-07-12 14:45:41,290 - INFO - start to run stock nonitor
+2020-07-12 14:46:20,566 - INFO - run main
+2020-07-12 14:46:20,884 - INFO - start to setup stock list
+2020-07-12 14:46:20,884 - INFO - start to run stock nonitor
+2020-07-12 14:53:22,257 - INFO - run main
+2020-07-12 14:53:22,261 - INFO - start to setup stock list
+2020-07-12 14:53:22,262 - INFO - start to run stock nonitor
+2020-07-12 14:54:51,600 - INFO - run main
+2020-07-12 14:54:51,605 - INFO - start to setup stock list
+2020-07-12 14:54:51,606 - INFO - start to run stock nonitor
+2020-07-12 14:56:33,315 - INFO - run main
+2020-07-12 14:56:49,126 - INFO - run main
+2020-07-12 14:56:49,391 - INFO - start to setup stock list
+2020-07-12 14:56:49,392 - INFO - start to run stock nonitor
+2020-07-12 14:58:02,555 - INFO - run main
+2020-07-12 14:58:02,910 - INFO - start to setup stock list
+2020-07-12 14:58:02,912 - INFO - start to run stock nonitor
+2020-07-12 14:58:35,915 - INFO - run main
+2020-07-12 14:58:36,257 - INFO - start to setup stock list
+2020-07-12 14:58:36,258 - INFO - start to run stock nonitor
+2020-07-12 15:03:55,741 - INFO - run main
+2020-07-12 15:04:49,517 - INFO - run main
+2020-07-12 15:05:40,851 - INFO - run main
+2020-07-12 15:07:22,071 - INFO - run main
+2020-07-12 15:08:59,948 - INFO - run main
+2020-07-12 15:09:31,500 - INFO - run main
+2020-07-12 15:10:58,524 - INFO - run main
+2020-07-12 15:18:50,095 - INFO - run main
+2020-07-12 15:18:50,527 - INFO - start to setup stock list
+2020-07-12 15:18:50,528 - INFO - start to run stock nonitor
+2020-07-12 15:19:17,888 - INFO - run main
+2020-07-12 15:28:41,520 - INFO - run main
+2020-07-12 15:30:11,033 - INFO - start to setup stock list
+2020-07-12 15:30:11,035 - INFO - start to run stock nonitor
+2020-07-12 15:35:42,386 - INFO - run main
+2020-07-12 15:39:32,461 - INFO - start to setup stock list
+2020-07-12 15:39:32,462 - INFO - start to run stock nonitor
+2020-07-12 15:41:40,560 - INFO - run main
+2020-07-12 15:42:32,195 - INFO - start to setup stock list
+2020-07-12 15:42:32,196 - INFO - start to run stock nonitor
+2020-07-12 15:43:40,962 - INFO - run main
+2020-07-12 15:43:43,134 - INFO - start to setup stock list
+2020-07-12 15:43:43,135 - INFO - start to run stock nonitor
+2020-07-12 15:44:33,548 - INFO - run main
+2020-07-12 15:44:35,647 - INFO - start to setup stock list
+2020-07-12 15:44:35,648 - INFO - start to run stock nonitor
+2020-07-12 15:45:36,935 - INFO - run main
+2020-07-12 15:45:38,860 - INFO - start to setup stock list
+2020-07-12 15:45:38,861 - INFO - start to run stock nonitor
+2020-07-12 15:47:56,660 - INFO - run main
+2020-07-12 15:47:58,567 - INFO - start to setup stock list
+2020-07-12 15:47:58,568 - INFO - start to run stock nonitor
+2020-07-12 15:48:12,880 - INFO - run main
+2020-07-12 15:48:14,896 - INFO - start to setup stock list
+2020-07-12 15:48:14,896 - INFO - start to run stock nonitor
+2020-07-12 15:48:35,172 - INFO - run main
+2020-07-12 15:48:37,172 - INFO - start to setup stock list
+2020-07-12 15:48:37,173 - INFO - start to run stock nonitor
+2020-07-12 15:48:50,697 - INFO - run main
+2020-07-12 15:48:52,615 - INFO - start to setup stock list
+2020-07-12 15:48:52,616 - INFO - start to run stock nonitor
+2020-07-12 15:49:12,872 - INFO - run main
+2020-07-12 15:49:14,987 - INFO - start to setup stock list
+2020-07-12 15:49:14,987 - INFO - start to run stock nonitor
+2020-07-12 15:49:23,247 - INFO - run main
+2020-07-12 15:49:25,199 - INFO - start to setup stock list
+2020-07-12 15:49:25,199 - INFO - start to run stock nonitor
+2020-07-12 15:50:52,844 - INFO - run main
+2020-07-12 15:50:55,006 - INFO - start to setup stock list
+2020-07-12 15:50:55,006 - INFO - start to run stock nonitor
+2020-07-12 15:52:48,721 - INFO - run main
+2020-07-12 15:52:50,683 - INFO - start to setup stock list
+2020-07-12 15:52:50,683 - INFO - start to run stock nonitor
+2020-07-12 15:53:47,138 - INFO - run main
+2020-07-12 15:53:49,012 - INFO - start to setup stock list
+2020-07-12 15:53:49,013 - INFO - start to run stock nonitor
+2020-07-12 15:54:28,535 - INFO - run main
+2020-07-12 15:54:30,667 - INFO - start to setup stock list
+2020-07-12 15:54:30,667 - INFO - start to run stock nonitor
+2020-07-12 15:54:50,887 - INFO - run main
+2020-07-12 15:56:57,503 - INFO - run main
+2020-07-12 15:56:59,499 - INFO - start to setup stock list
+2020-07-12 15:56:59,500 - INFO - start to run stock nonitor
+2020-07-12 15:58:12,252 - INFO - run main
+2020-07-12 15:58:14,350 - INFO - start to setup stock list
+2020-07-12 15:58:14,351 - INFO - start to run stock nonitor
+2020-07-12 16:07:08,445 - INFO - run main
+2020-07-12 16:11:18,213 - INFO - run main
+2020-07-12 16:11:34,257 - INFO - run main
+2020-07-12 16:14:39,108 - INFO - run main
+2020-07-12 16:14:53,196 - INFO - run main
+2020-07-12 16:16:08,277 - INFO - run main
+2020-07-12 16:16:35,762 - INFO - run main
+2020-07-12 16:19:07,071 - INFO - run main
+2020-07-12 16:19:31,730 - INFO - run main
+2020-07-12 16:19:34,008 - INFO - start to setup stock list
+2020-07-12 16:19:34,009 - INFO - start to run stock nonitor
+2020-07-12 16:19:56,414 - INFO - run main
+2020-07-12 16:19:58,531 - INFO - start to setup stock list
+2020-07-12 16:19:58,531 - INFO - start to run stock nonitor
+2020-07-12 16:24:02,372 - INFO - run main
+2020-07-12 16:24:04,572 - INFO - start to setup stock list
+2020-07-12 16:24:04,573 - INFO - start to run stock nonitor
+2020-07-12 16:24:29,994 - INFO - run main
+2020-07-12 16:24:32,184 - INFO - start to setup stock list
+2020-07-12 16:24:32,201 - INFO - start to run stock nonitor
+2020-07-12 16:27:12,625 - INFO - run main
+2020-07-12 16:27:15,093 - INFO - start to setup stock list
+2020-07-12 16:27:15,093 - INFO - start to run stock nonitor
+2020-07-12 16:27:36,116 - INFO - run main
+2020-07-12 16:27:38,162 - INFO - start to setup stock list
+2020-07-12 16:27:38,162 - INFO - start to run stock nonitor
+2020-07-12 16:29:56,202 - INFO - run main
+2020-07-12 16:29:58,646 - INFO - start to setup stock list
+2020-07-12 16:29:58,646 - INFO - start to run stock nonitor
+2020-07-12 16:30:43,718 - INFO - run main
+2020-07-12 16:30:46,094 - INFO - start to setup stock list
+2020-07-12 16:30:46,096 - INFO - start to run stock nonitor
+2020-07-12 16:32:14,357 - INFO - run main
+2020-07-12 16:33:10,318 - INFO - start to setup stock list
+2020-07-12 16:33:10,334 - INFO - start to run stock nonitor
+2020-07-12 16:50:11,862 - INFO - run main
+2020-07-12 16:52:48,916 - INFO - run main
+2020-07-12 16:56:31,179 - INFO - run main
+2020-07-12 16:58:17,998 - INFO - run main
+2020-07-12 16:58:51,172 - INFO - run main
+2020-07-12 16:58:54,185 - INFO - start to setup stock list
+2020-07-12 16:58:54,185 - INFO - start to run stock nonitor
+2020-07-12 16:59:23,874 - INFO - run main
+2020-07-12 16:59:25,835 - INFO - start to setup stock list
+2020-07-12 16:59:25,835 - INFO - start to run stock nonitor
+2020-07-12 16:59:33,927 - INFO - run main
+2020-07-12 16:59:35,900 - INFO - start to setup stock list
+2020-07-12 16:59:35,900 - INFO - start to run stock nonitor
+2020-07-12 16:59:54,015 - INFO - run main
+2020-07-12 17:01:03,546 - INFO - start to setup stock list
+2020-07-12 17:01:03,546 - INFO - start to run stock nonitor
+2020-07-12 17:06:25,980 - INFO - run main
+2020-07-12 17:06:25,980 - INFO - start to setup stock list
+2020-07-12 17:06:31,971 - INFO - start to run stock nonitor
+2020-07-12 17:06:31,987 - INFO - {'code': 'sh688060', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:33,003 - INFO - {'code': 'sz300849', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:34,003 - INFO - {'code': 'sh605199', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:35,017 - INFO - {'code': 'sh688298', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:36,018 - INFO - {'code': 'sh688399', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:37,032 - INFO - {'code': 'sh688366', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:38,047 - INFO - {'code': 'sh600175', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:39,047 - INFO - {'code': 'sh688310', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:40,053 - INFO - {'code': 'sh688051', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:41,053 - INFO - {'code': 'sh600393', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:42,075 - INFO - {'code': 'sh600317', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:06:43,082 - INFO - {'code': 'sz000620', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:03,449 - INFO - run main
+2020-07-12 17:25:03,450 - INFO - start to setup stock list
+2020-07-12 17:25:03,455 - INFO - start to run stock nonitor
+2020-07-12 17:25:37,799 - INFO - run main
+2020-07-12 17:25:37,800 - INFO - start to setup stock list
+2020-07-12 17:25:37,805 - INFO - start to run stock nonitor
+2020-07-12 17:25:38,408 - INFO - {'code': 'sh600586', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sh601068', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz300659', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz300233', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz300014', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz000066', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz300624', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz002537', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz002953', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sh601600', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sz002807', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:38,408 - INFO - {'code': 'sh603429', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sh600586', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sh601068', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz300659', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz300233', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz300014', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz000066', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz300624', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz002537', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sz002953', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,421 - INFO - {'code': 'sh601600', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,436 - INFO - {'code': 'sz002807', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:39,436 - INFO - {'code': 'sh603429', 'name': '', 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 17:25:48,579 - INFO - run main
+2020-07-12 17:25:48,579 - INFO - start to setup stock list
+2020-07-12 17:25:48,585 - INFO - start to run stock nonitor
+2020-07-12 17:37:03,533 - INFO - run main
+2020-07-12 17:37:03,533 - INFO - start to setup stock list
+2020-07-12 17:37:03,533 - INFO - start to run stock nonitor
+2020-07-12 17:38:48,898 - INFO - run main
+2020-07-12 17:38:48,899 - INFO - start to setup stock list
+2020-07-12 17:38:48,904 - INFO - start to run stock nonitor
+2020-07-12 17:39:42,374 - INFO - run main
+2020-07-12 17:39:42,374 - INFO - start to setup stock list
+2020-07-12 17:39:42,374 - INFO - start to run stock nonitor
+2020-07-12 17:39:50,925 - INFO - run main
+2020-07-12 17:39:50,926 - INFO - start to setup stock list
+2020-07-12 17:39:50,931 - INFO - start to run stock nonitor
+2020-07-12 17:40:27,655 - INFO - run main
+2020-07-12 17:40:27,655 - INFO - start to setup stock list
+2020-07-12 17:40:27,671 - INFO - start to run stock nonitor
+2020-07-12 17:40:45,513 - INFO - run main
+2020-07-12 17:40:45,514 - INFO - start to setup stock list
+2020-07-12 17:40:45,519 - INFO - start to run stock nonitor
+2020-07-12 17:41:14,498 - INFO - run main
+2020-07-12 17:41:14,498 - INFO - start to setup stock list
+2020-07-12 17:41:14,498 - INFO - start to run stock nonitor
+2020-07-12 17:41:54,079 - INFO - run main
+2020-07-12 17:41:54,095 - INFO - start to setup stock list
+2020-07-12 17:41:54,095 - INFO - start to run stock nonitor
+2020-07-12 17:43:52,987 - INFO - run main
+2020-07-12 17:43:52,988 - INFO - start to setup stock list
+2020-07-12 17:43:52,993 - INFO - start to run stock nonitor
+2020-07-12 17:45:34,573 - INFO - run main
+2020-07-12 17:45:34,573 - INFO - start to setup stock list
+2020-07-12 17:45:34,588 - INFO - start to run stock nonitor
+2020-07-12 17:46:06,189 - INFO - run main
+2020-07-12 17:46:06,190 - INFO - start to setup stock list
+2020-07-12 17:46:06,195 - INFO - start to run stock nonitor
+2020-07-12 17:56:31,728 - INFO - run main
+2020-07-12 17:56:31,728 - INFO - start to setup stock list
+2020-07-12 17:56:31,728 - INFO - start to run stock nonitor
+2020-07-12 17:58:10,650 - INFO - run main
+2020-07-12 17:58:10,650 - INFO - start to setup stock list
+2020-07-12 17:58:10,666 - INFO - start to run stock nonitor
+2020-07-12 17:58:42,199 - INFO - run main
+2020-07-12 17:58:42,199 - INFO - start to setup stock list
+2020-07-12 17:58:42,214 - INFO - start to run stock nonitor
+2020-07-12 17:59:23,231 - INFO - run main
+2020-07-12 17:59:23,232 - INFO - start to setup stock list
+2020-07-12 17:59:23,238 - INFO - start to run stock nonitor
+2020-07-12 18:02:30,817 - INFO - run main
+2020-07-12 18:02:30,817 - INFO - start to setup stock list
+2020-07-12 19:07:28,125 - INFO - run main
+2020-07-12 19:07:28,125 - INFO - start to setup stock list
+2020-07-12 19:07:29,051 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,051 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:29,066 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,883 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,885 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,888 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,889 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,891 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,891 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,892 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,893 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,893 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,894 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,895 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:30,896 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,672 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,673 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,676 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,677 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,679 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,680 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,681 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,682 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,683 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,684 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,689 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:32,690 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,505 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,505 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,505 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:34,521 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,347 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,349 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,352 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,353 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,355 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,356 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,357 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,358 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,359 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,363 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,365 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:36,366 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,135 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,150 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,150 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:38,150 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,921 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,923 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,924 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:07:39,925 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:12,347 - INFO - run main
+2020-07-12 19:11:12,348 - INFO - start to setup stock list
+2020-07-12 19:11:13,220 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,222 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,223 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,224 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:13,225 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,171 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,174 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,175 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,177 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,178 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,180 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,181 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,181 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,182 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,185 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,185 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:15,186 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,007 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,008 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,009 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,010 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,011 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,012 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,013 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,013 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,014 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,015 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,016 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:17,016 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:41,864 - INFO - run main
+2020-07-12 19:11:41,865 - INFO - start to setup stock list
+2020-07-12 19:11:42,817 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,820 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,821 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,822 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,823 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,824 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,825 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,826 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,827 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,828 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,831 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:11:42,832 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:20,640 - INFO - run main
+2020-07-12 19:12:20,641 - INFO - start to setup stock list
+2020-07-12 19:12:21,551 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,553 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,555 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,556 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,558 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,559 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,560 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,565 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,566 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,567 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,568 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:21,569 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,353 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,353 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,353 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:12:23,368 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:13,802 - INFO - run main
+2020-07-12 19:13:13,802 - INFO - start to setup stock list
+2020-07-12 19:13:14,678 - INFO - {'code': 'sh600586', 'name': '2020-07-10 15:00:00', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sh601068', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sz300659', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sz300233', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sz300014', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sz000066', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sz300624', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,694 - INFO - {'code': 'sz002537', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,709 - INFO - {'code': 'sz002953', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,709 - INFO - {'code': 'sh601600', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,709 - INFO - {'code': 'sz002807', 'name': '2020-07-10 15:00:03', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:14,709 - INFO - {'code': 'sh603429', 'name': '2020-07-10 15:00:01', 'cur_price': 0, 'open': 0, 'close': 0, 'high': 0, 'low': 0, 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:13:47,523 - INFO - run main
+2020-07-12 19:13:47,523 - INFO - start to setup stock list
+2020-07-12 19:14:13,178 - INFO - run main
+2020-07-12 19:14:13,178 - INFO - start to setup stock list
+2020-07-12 19:14:47,608 - INFO - run main
+2020-07-12 19:14:47,608 - INFO - start to setup stock list
+2020-07-12 19:15:55,289 - INFO - run main
+2020-07-12 19:15:55,290 - INFO - start to setup stock list
+2020-07-12 19:16:24,570 - INFO - run main
+2020-07-12 19:16:24,570 - INFO - start to setup stock list
+2020-07-12 19:17:27,566 - INFO - run main
+2020-07-12 19:17:27,567 - INFO - start to setup stock list
+2020-07-12 19:18:34,994 - INFO - run main
+2020-07-12 19:18:34,994 - INFO - start to setup stock list
+2020-07-12 19:18:53,191 - INFO - run main
+2020-07-12 19:18:53,191 - INFO - start to setup stock list
+2020-07-12 19:18:54,037 - INFO - {'code': 'sh600586', 'name': '金晶科技', 'cur_price': '3.610', 'open': '3.740', 'close': '3.820', 'high': '3.810', 'low': '3.600', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,037 - INFO - {'code': 'sh601068', 'name': '中铝国际', 'cur_price': '4.450', 'open': '4.630', 'close': '4.710', 'high': '4.650', 'low': '4.440', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,037 - INFO - {'code': 'sz300659', 'name': '中孚信息', 'cur_price': '68.660', 'open': '71.890', 'close': '72.680', 'high': '73.060', 'low': '68.360', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,037 - INFO - {'code': 'sz300233', 'name': '金城医药', 'cur_price': '35.800', 'open': '38.000', 'close': '37.900', 'high': '38.000', 'low': '35.000', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,037 - INFO - {'code': 'sz300014', 'name': '亿纬锂能', 'cur_price': '56.670', 'open': '59.000', 'close': '60.000', 'high': '59.000', 'low': '54.870', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,037 - INFO - {'code': 'sz000066', 'name': '中国长城', 'cur_price': '16.690', 'open': '17.640', 'close': '17.670', 'high': '17.640', 'low': '16.650', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,037 - INFO - {'code': 'sz300624', 'name': '万兴科技', 'cur_price': '82.440', 'open': '85.580', 'close': '87.300', 'high': '86.500', 'low': '82.190', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,053 - INFO - {'code': 'sz002537', 'name': '海联金汇', 'cur_price': '6.940', 'open': '7.110', 'close': '7.350', 'high': '7.230', 'low': '6.930', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,053 - INFO - {'code': 'sz002953', 'name': '日丰股份', 'cur_price': '27.220', 'open': '28.740', 'close': '28.830', 'high': '28.740', 'low': '27.050', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,053 - INFO - {'code': 'sh601600', 'name': '中国铝业', 'cur_price': '3.370', 'open': '3.500', 'close': '3.570', 'high': '3.510', 'low': '3.350', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,053 - INFO - {'code': 'sz002807', 'name': '江阴银行', 'cur_price': '4.550', 'open': '4.740', 'close': '4.820', 'high': '4.770', 'low': '4.550', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:54,053 - INFO - {'code': 'sh603429', 'name': '集友股份', 'cur_price': '44.370', 'open': '47.500', 'close': '49.300', 'high': '47.590', 'low': '44.370', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,838 - INFO - {'code': 'sh600586', 'name': '金晶科技', 'cur_price': '3.610', 'open': '3.740', 'close': '3.820', 'high': '3.810', 'low': '3.600', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,839 - INFO - {'code': 'sh601068', 'name': '中铝国际', 'cur_price': '4.450', 'open': '4.630', 'close': '4.710', 'high': '4.650', 'low': '4.440', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,841 - INFO - {'code': 'sz300659', 'name': '中孚信息', 'cur_price': '68.660', 'open': '71.890', 'close': '72.680', 'high': '73.060', 'low': '68.360', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,842 - INFO - {'code': 'sz300233', 'name': '金城医药', 'cur_price': '35.800', 'open': '38.000', 'close': '37.900', 'high': '38.000', 'low': '35.000', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,843 - INFO - {'code': 'sz300014', 'name': '亿纬锂能', 'cur_price': '56.670', 'open': '59.000', 'close': '60.000', 'high': '59.000', 'low': '54.870', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,843 - INFO - {'code': 'sz000066', 'name': '中国长城', 'cur_price': '16.690', 'open': '17.640', 'close': '17.670', 'high': '17.640', 'low': '16.650', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,844 - INFO - {'code': 'sz300624', 'name': '万兴科技', 'cur_price': '82.440', 'open': '85.580', 'close': '87.300', 'high': '86.500', 'low': '82.190', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,845 - INFO - {'code': 'sz002537', 'name': '海联金汇', 'cur_price': '6.940', 'open': '7.110', 'close': '7.350', 'high': '7.230', 'low': '6.930', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,846 - INFO - {'code': 'sz002953', 'name': '日丰股份', 'cur_price': '27.220', 'open': '28.740', 'close': '28.830', 'high': '28.740', 'low': '27.050', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,847 - INFO - {'code': 'sh601600', 'name': '中国铝业', 'cur_price': '3.370', 'open': '3.500', 'close': '3.570', 'high': '3.510', 'low': '3.350', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,848 - INFO - {'code': 'sz002807', 'name': '江阴银行', 'cur_price': '4.550', 'open': '4.740', 'close': '4.820', 'high': '4.770', 'low': '4.550', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:18:55,849 - INFO - {'code': 'sh603429', 'name': '集友股份', 'cur_price': '44.370', 'open': '47.500', 'close': '49.300', 'high': '47.590', 'low': '44.370', 'volume': 0, 'turnover': 0, 'change': 0.0}
+2020-07-12 19:28:46,924 - INFO - run main
+2020-07-12 19:28:46,925 - INFO - start to setup stock list
+2020-07-12 19:28:47,845 - INFO - 金晶科技:3.610
+2020-07-12 19:28:47,846 - INFO - 中铝国际:4.450
+2020-07-12 19:28:47,848 - INFO - 中孚信息:68.660
+2020-07-12 19:28:47,849 - INFO - 金城医药:35.800
+2020-07-12 19:28:47,849 - INFO - 亿纬锂能:56.670
+2020-07-12 19:28:47,850 - INFO - 中国长城:16.690
+2020-07-12 19:28:47,851 - INFO - 万兴科技:82.440
+2020-07-12 19:28:47,852 - INFO - 海联金汇:6.940
+2020-07-12 19:28:47,852 - INFO - 日丰股份:27.220
+2020-07-12 19:28:47,853 - INFO - 中国铝业:3.370
+2020-07-12 19:28:47,854 - INFO - 江阴银行:4.550
+2020-07-12 19:28:47,854 - INFO - 集友股份:44.370
+2020-07-12 19:28:49,683 - INFO - 金晶科技:3.610
+2020-07-12 19:28:49,683 - INFO - 中铝国际:4.450
+2020-07-12 19:28:49,683 - INFO - 中孚信息:68.660
+2020-07-12 19:28:49,683 - INFO - 金城医药:35.800
+2020-07-12 19:28:49,683 - INFO - 亿纬锂能:56.670
+2020-07-12 19:28:49,683 - INFO - 中国长城:16.690
+2020-07-12 19:28:49,683 - INFO - 万兴科技:82.440
+2020-07-12 19:28:49,683 - INFO - 海联金汇:6.940
+2020-07-12 19:28:49,683 - INFO - 日丰股份:27.220
+2020-07-12 19:28:49,683 - INFO - 中国铝业:3.370
+2020-07-12 19:28:49,683 - INFO - 江阴银行:4.550
+2020-07-12 19:28:49,683 - INFO - 集友股份:44.370
+2020-07-12 19:28:51,566 - INFO - 金晶科技:3.610
+2020-07-12 19:28:51,567 - INFO - 中铝国际:4.450
+2020-07-12 19:28:51,568 - INFO - 中孚信息:68.660
+2020-07-12 19:28:51,569 - INFO - 金城医药:35.800
+2020-07-12 19:28:51,570 - INFO - 亿纬锂能:56.670
+2020-07-12 19:28:51,570 - INFO - 中国长城:16.690
+2020-07-12 19:28:51,571 - INFO - 万兴科技:82.440
+2020-07-12 19:28:51,571 - INFO - 海联金汇:6.940
+2020-07-12 19:28:51,572 - INFO - 日丰股份:27.220
+2020-07-12 19:28:51,573 - INFO - 中国铝业:3.370
+2020-07-12 19:28:51,574 - INFO - 江阴银行:4.550
+2020-07-12 19:28:51,574 - INFO - 集友股份:44.370
+2020-07-12 19:28:53,378 - INFO - 金晶科技:3.610
+2020-07-12 19:28:53,378 - INFO - 中铝国际:4.450
+2020-07-12 19:28:53,378 - INFO - 中孚信息:68.660
+2020-07-12 19:28:53,378 - INFO - 金城医药:35.800
+2020-07-12 19:28:53,378 - INFO - 亿纬锂能:56.670
+2020-07-12 19:28:53,378 - INFO - 中国长城:16.690
+2020-07-12 19:28:53,378 - INFO - 万兴科技:82.440
+2020-07-12 19:28:53,378 - INFO - 海联金汇:6.940
+2020-07-12 19:28:53,378 - INFO - 日丰股份:27.220
+2020-07-12 19:28:53,378 - INFO - 中国铝业:3.370
+2020-07-12 19:28:53,378 - INFO - 江阴银行:4.550
+2020-07-12 19:28:53,378 - INFO - 集友股份:44.370
+2020-07-12 19:29:31,416 - INFO - run main
+2020-07-12 19:29:31,417 - INFO - start to setup stock list
+2020-07-12 19:29:32,365 - INFO - 金晶科技:3.610
+2020-07-12 19:29:32,366 - INFO - 中铝国际:4.450
+2020-07-12 19:29:32,367 - INFO - 中孚信息:68.660
+2020-07-12 19:29:32,368 - INFO - 金城医药:35.800
+2020-07-12 19:29:32,369 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:32,369 - INFO - 中国长城:16.690
+2020-07-12 19:29:32,370 - INFO - 万兴科技:82.440
+2020-07-12 19:29:32,370 - INFO - 海联金汇:6.940
+2020-07-12 19:29:32,371 - INFO - 日丰股份:27.220
+2020-07-12 19:29:32,371 - INFO - 中国铝业:3.370
+2020-07-12 19:29:32,372 - INFO - 江阴银行:4.550
+2020-07-12 19:29:32,372 - INFO - 集友股份:44.370
+2020-07-12 19:29:34,126 - INFO - 金晶科技:3.610
+2020-07-12 19:29:34,126 - INFO - 中铝国际:4.450
+2020-07-12 19:29:34,126 - INFO - 中孚信息:68.660
+2020-07-12 19:29:34,126 - INFO - 金城医药:35.800
+2020-07-12 19:29:34,126 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:34,126 - INFO - 中国长城:16.690
+2020-07-12 19:29:34,142 - INFO - 万兴科技:82.440
+2020-07-12 19:29:34,142 - INFO - 海联金汇:6.940
+2020-07-12 19:29:34,142 - INFO - 日丰股份:27.220
+2020-07-12 19:29:34,142 - INFO - 中国铝业:3.370
+2020-07-12 19:29:34,142 - INFO - 江阴银行:4.550
+2020-07-12 19:29:34,142 - INFO - 集友股份:44.370
+2020-07-12 19:29:35,888 - INFO - 金晶科技:3.610
+2020-07-12 19:29:35,888 - INFO - 中铝国际:4.450
+2020-07-12 19:29:35,889 - INFO - 中孚信息:68.660
+2020-07-12 19:29:35,890 - INFO - 金城医药:35.800
+2020-07-12 19:29:35,890 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:35,891 - INFO - 中国长城:16.690
+2020-07-12 19:29:35,891 - INFO - 万兴科技:82.440
+2020-07-12 19:29:35,891 - INFO - 海联金汇:6.940
+2020-07-12 19:29:35,892 - INFO - 日丰股份:27.220
+2020-07-12 19:29:35,892 - INFO - 中国铝业:3.370
+2020-07-12 19:29:35,892 - INFO - 江阴银行:4.550
+2020-07-12 19:29:35,893 - INFO - 集友股份:44.370
+2020-07-12 19:29:37,726 - INFO - 金晶科技:3.610
+2020-07-12 19:29:37,726 - INFO - 中铝国际:4.450
+2020-07-12 19:29:37,728 - INFO - 中孚信息:68.660
+2020-07-12 19:29:37,729 - INFO - 金城医药:35.800
+2020-07-12 19:29:37,730 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:37,730 - INFO - 中国长城:16.690
+2020-07-12 19:29:37,730 - INFO - 万兴科技:82.440
+2020-07-12 19:29:37,731 - INFO - 海联金汇:6.940
+2020-07-12 19:29:37,731 - INFO - 日丰股份:27.220
+2020-07-12 19:29:37,732 - INFO - 中国铝业:3.370
+2020-07-12 19:29:37,732 - INFO - 江阴银行:4.550
+2020-07-12 19:29:37,733 - INFO - 集友股份:44.370
+2020-07-12 19:29:39,570 - INFO - 金晶科技:3.610
+2020-07-12 19:29:39,570 - INFO - 中铝国际:4.450
+2020-07-12 19:29:39,570 - INFO - 中孚信息:68.660
+2020-07-12 19:29:39,570 - INFO - 金城医药:35.800
+2020-07-12 19:29:39,570 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:39,586 - INFO - 中国长城:16.690
+2020-07-12 19:29:39,586 - INFO - 万兴科技:82.440
+2020-07-12 19:29:39,586 - INFO - 海联金汇:6.940
+2020-07-12 19:29:39,586 - INFO - 日丰股份:27.220
+2020-07-12 19:29:39,586 - INFO - 中国铝业:3.370
+2020-07-12 19:29:39,586 - INFO - 江阴银行:4.550
+2020-07-12 19:29:39,586 - INFO - 集友股份:44.370
+2020-07-12 19:29:41,496 - INFO - 金晶科技:3.610
+2020-07-12 19:29:41,497 - INFO - 中铝国际:4.450
+2020-07-12 19:29:41,499 - INFO - 中孚信息:68.660
+2020-07-12 19:29:41,500 - INFO - 金城医药:35.800
+2020-07-12 19:29:41,500 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:41,501 - INFO - 中国长城:16.690
+2020-07-12 19:29:41,501 - INFO - 万兴科技:82.440
+2020-07-12 19:29:41,502 - INFO - 海联金汇:6.940
+2020-07-12 19:29:41,502 - INFO - 日丰股份:27.220
+2020-07-12 19:29:41,503 - INFO - 中国铝业:3.370
+2020-07-12 19:29:41,503 - INFO - 江阴银行:4.550
+2020-07-12 19:29:41,504 - INFO - 集友股份:44.370
+2020-07-12 19:29:43,314 - INFO - 金晶科技:3.610
+2020-07-12 19:29:43,314 - INFO - 中铝国际:4.450
+2020-07-12 19:29:43,314 - INFO - 中孚信息:68.660
+2020-07-12 19:29:43,314 - INFO - 金城医药:35.800
+2020-07-12 19:29:43,314 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:43,314 - INFO - 中国长城:16.690
+2020-07-12 19:29:43,314 - INFO - 万兴科技:82.440
+2020-07-12 19:29:43,314 - INFO - 海联金汇:6.940
+2020-07-12 19:29:43,314 - INFO - 日丰股份:27.220
+2020-07-12 19:29:43,314 - INFO - 中国铝业:3.370
+2020-07-12 19:29:43,314 - INFO - 江阴银行:4.550
+2020-07-12 19:29:43,314 - INFO - 集友股份:44.370
+2020-07-12 19:29:45,105 - INFO - 金晶科技:3.610
+2020-07-12 19:29:45,105 - INFO - 中铝国际:4.450
+2020-07-12 19:29:45,105 - INFO - 中孚信息:68.660
+2020-07-12 19:29:45,105 - INFO - 金城医药:35.800
+2020-07-12 19:29:45,105 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:45,105 - INFO - 中国长城:16.690
+2020-07-12 19:29:45,105 - INFO - 万兴科技:82.440
+2020-07-12 19:29:45,105 - INFO - 海联金汇:6.940
+2020-07-12 19:29:45,120 - INFO - 日丰股份:27.220
+2020-07-12 19:29:45,120 - INFO - 中国铝业:3.370
+2020-07-12 19:29:45,120 - INFO - 江阴银行:4.550
+2020-07-12 19:29:45,120 - INFO - 集友股份:44.370
+2020-07-12 19:29:46,965 - INFO - 金晶科技:3.610
+2020-07-12 19:29:46,966 - INFO - 中铝国际:4.450
+2020-07-12 19:29:46,968 - INFO - 中孚信息:68.660
+2020-07-12 19:29:46,969 - INFO - 金城医药:35.800
+2020-07-12 19:29:46,969 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:46,970 - INFO - 中国长城:16.690
+2020-07-12 19:29:46,970 - INFO - 万兴科技:82.440
+2020-07-12 19:29:46,971 - INFO - 海联金汇:6.940
+2020-07-12 19:29:46,971 - INFO - 日丰股份:27.220
+2020-07-12 19:29:46,972 - INFO - 中国铝业:3.370
+2020-07-12 19:29:46,972 - INFO - 江阴银行:4.550
+2020-07-12 19:29:46,973 - INFO - 集友股份:44.370
+2020-07-12 19:29:48,795 - INFO - 金晶科技:3.610
+2020-07-12 19:29:48,795 - INFO - 中铝国际:4.450
+2020-07-12 19:29:48,795 - INFO - 中孚信息:68.660
+2020-07-12 19:29:48,795 - INFO - 金城医药:35.800
+2020-07-12 19:29:48,795 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:48,795 - INFO - 中国长城:16.690
+2020-07-12 19:29:48,795 - INFO - 万兴科技:82.440
+2020-07-12 19:29:48,795 - INFO - 海联金汇:6.940
+2020-07-12 19:29:48,795 - INFO - 日丰股份:27.220
+2020-07-12 19:29:48,795 - INFO - 中国铝业:3.370
+2020-07-12 19:29:48,795 - INFO - 江阴银行:4.550
+2020-07-12 19:29:48,795 - INFO - 集友股份:44.370
+2020-07-12 19:29:50,683 - INFO - 金晶科技:3.610
+2020-07-12 19:29:50,684 - INFO - 中铝国际:4.450
+2020-07-12 19:29:50,685 - INFO - 中孚信息:68.660
+2020-07-12 19:29:50,686 - INFO - 金城医药:35.800
+2020-07-12 19:29:50,686 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:50,687 - INFO - 中国长城:16.690
+2020-07-12 19:29:50,687 - INFO - 万兴科技:82.440
+2020-07-12 19:29:50,688 - INFO - 海联金汇:6.940
+2020-07-12 19:29:50,688 - INFO - 日丰股份:27.220
+2020-07-12 19:29:50,689 - INFO - 中国铝业:3.370
+2020-07-12 19:29:50,689 - INFO - 江阴银行:4.550
+2020-07-12 19:29:50,690 - INFO - 集友股份:44.370
+2020-07-12 19:29:52,579 - INFO - 金晶科技:3.610
+2020-07-12 19:29:52,580 - INFO - 中铝国际:4.450
+2020-07-12 19:29:52,582 - INFO - 中孚信息:68.660
+2020-07-12 19:29:52,583 - INFO - 金城医药:35.800
+2020-07-12 19:29:52,584 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:52,585 - INFO - 中国长城:16.690
+2020-07-12 19:29:52,586 - INFO - 万兴科技:82.440
+2020-07-12 19:29:52,586 - INFO - 海联金汇:6.940
+2020-07-12 19:29:52,587 - INFO - 日丰股份:27.220
+2020-07-12 19:29:52,588 - INFO - 中国铝业:3.370
+2020-07-12 19:29:52,588 - INFO - 江阴银行:4.550
+2020-07-12 19:29:52,589 - INFO - 集友股份:44.370
+2020-07-12 19:29:54,397 - INFO - 金晶科技:3.610
+2020-07-12 19:29:54,397 - INFO - 中铝国际:4.450
+2020-07-12 19:29:54,397 - INFO - 中孚信息:68.660
+2020-07-12 19:29:54,397 - INFO - 金城医药:35.800
+2020-07-12 19:29:54,397 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:54,397 - INFO - 中国长城:16.690
+2020-07-12 19:29:54,397 - INFO - 万兴科技:82.440
+2020-07-12 19:29:54,397 - INFO - 海联金汇:6.940
+2020-07-12 19:29:54,397 - INFO - 日丰股份:27.220
+2020-07-12 19:29:54,397 - INFO - 中国铝业:3.370
+2020-07-12 19:29:54,413 - INFO - 江阴银行:4.550
+2020-07-12 19:29:54,413 - INFO - 集友股份:44.370
+2020-07-12 19:29:56,330 - INFO - 金晶科技:3.610
+2020-07-12 19:29:56,331 - INFO - 中铝国际:4.450
+2020-07-12 19:29:56,333 - INFO - 中孚信息:68.660
+2020-07-12 19:29:56,334 - INFO - 金城医药:35.800
+2020-07-12 19:29:56,334 - INFO - 亿纬锂能:56.670
+2020-07-12 19:29:56,335 - INFO - 中国长城:16.690
+2020-07-12 19:29:56,336 - INFO - 万兴科技:82.440
+2020-07-12 19:29:56,336 - INFO - 海联金汇:6.940
+2020-07-12 19:29:56,337 - INFO - 日丰股份:27.220
+2020-07-12 19:29:56,338 - INFO - 中国铝业:3.370
+2020-07-12 19:29:56,339 - INFO - 江阴银行:4.550
+2020-07-12 19:29:56,339 - INFO - 集友股份:44.370

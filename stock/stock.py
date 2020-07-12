@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from .stockdata import StockData
-from .crawler import CrawlerMannager
+from .stocklist import StockList
 
 class Stock():
     '''stock api midle SDK, to get some data from ohter api
@@ -9,10 +9,14 @@ class Stock():
     '''
     def __init__(self, *stocks):
         self.stock_list = []
+        self.sk_list_obj = StockList()
         if len(stocks)>0:
             for code in stocks:
                 data = StockData(code)
                 self.stock_list.append(data)
+
+    def get_stock_list(self):
+        return self.stock_list
     
     def add_code(self, code):
         print('add code: %s' % code)
@@ -47,15 +51,15 @@ class Stock():
             return dict()
 
     def get_real_data(self, code):
-        sk = self.get_stock_obj()
+        sk = self.get_stock_obj(code)
         if sk is not None:
             return sk.get_data()
+     
+    def get_all_stock_list_form_network(self):
+        return self.sk_list_obj.get_all_stock_list()
 
     def run(self):
         # 提交列表信息数据给爬虫，实时获取数据
-        crawler = CrawlerManager(self.stock_list)
-        crawler.run()
-
-
+        self.sk_list_obj.run_monitor(self.stock_list)
 
 

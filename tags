@@ -1,0 +1,117 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/5e4eca42/
+CrawlerManager	crawler\\manager.py	/^class CrawlerManager():$/;"	kind:c	line:15	inherits:	access:public
+CrawlerManager.__init__	crawler\\manager.py	/^    def __init__(self, stock_objs):$/;"	kind:m	line:16	class:CrawlerManager	access:public	signature:(self, stock_objs)
+CrawlerManager.add_new_urls	crawler\\manager.py	/^    def add_new_urls(self, url):$/;"	kind:m	line:20	class:CrawlerManager	access:public	signature:(self, url)
+CrawlerManager.get_new_urls	crawler\\manager.py	/^    def get_new_urls(self):$/;"	kind:m	line:28	class:CrawlerManager	access:public	signature:(self)
+CrawlerManager.has_new_urls	crawler\\manager.py	/^    def has_new_urls(self):$/;"	kind:m	line:24	class:CrawlerManager	access:public	signature:(self)
+CrawlerManager.new_urls_size	crawler\\manager.py	/^    def new_urls_size(self):$/;"	kind:m	line:32	class:CrawlerManager	access:public	signature:(self)
+CrawlerManager.old_urls_size	crawler\\manager.py	/^    def old_urls_size(self):$/;"	kind:m	line:36	class:CrawlerManager	access:public	signature:(self)
+CrawlerManager.run	crawler\\manager.py	/^    def run(self):$/;"	kind:m	line:39	class:CrawlerManager	access:public	signature:(self)
+Data	data\\data.py	/^class Data():$/;"	kind:c	line:13	inherits:	access:public
+Data.__init__	data\\data.py	/^    def __init__(self, file = ''):$/;"	kind:m	line:14	class:Data	access:public	signature:(self, file = '')
+Data.get_file_data	data\\data.py	/^    def get_file_data(self, file):$/;"	kind:m	line:23	class:Data	access:public	signature:(self, file)
+Data.get_stock_list	data\\data.py	/^    def get_stock_list(self):$/;"	kind:m	line:39	class:Data	access:public	signature:(self)
+Data.is_has_file	data\\data.py	/^    def is_has_file(self, file):$/;"	kind:m	line:17	class:Data	access:public	signature:(self, file)
+Data.save_data_to_file	data\\data.py	/^    def save_data_to_file(self, data, file=''):$/;"	kind:m	line:31	class:Data	access:public	signature:(self, data, file='')
+Download	crawler\\download.py	/^class Download():$/;"	kind:c	line:24	inherits:	access:public
+Download.__init__	crawler\\download.py	/^    def __init__(self, url, data=None, params=None, encoding='utf-8'):$/;"	kind:m	line:26	class:Download	access:public	signature:(self, url, data=None, params=None, encoding='utf-8')
+Download.get_html_text	crawler\\download.py	/^    def get_html_text(self, set_url=''):$/;"	kind:m	line:36	class:Download	access:public	signature:(self, set_url='')
+Download.get_response_code	crawler\\download.py	/^    def get_response_code(self):$/;"	kind:m	line:66	class:Download	access:public	signature:(self)
+Parser	crawler\\parse.py	/^class Parser():$/;"	kind:c	line:19	inherits:	access:public
+Parser.__init__	crawler\\parse.py	/^    def __init__(self, html, encoding='utf-8'):$/;"	kind:m	line:20	class:Parser	access:public	signature:(self, html, encoding='utf-8')
+Parser.get_contents	crawler\\parse.py	/^    def get_contents(self, mark, attr='', restr=''):$/;"	kind:m	line:34	class:Parser	access:public	signature:(self, mark, attr='', restr='')
+Parser.parse_stock_code	crawler\\parse.py	/^    def parse_stock_code(self, re_pattern=''):$/;"	kind:m	line:24	class:Parser	access:public	signature:(self, re_pattern='')
+Stock	stock\\stock.py	/^class Stock():$/;"	kind:c	line:5	inherits:	access:public
+Stock.__init__	stock\\stock.py	/^    def __init__(self, *stocks):$/;"	kind:m	line:10	class:Stock	access:public	signature:(self, *stocks)
+Stock.add_code	stock\\stock.py	/^    def add_code(self, code):$/;"	kind:m	line:21	class:Stock	access:public	signature:(self, code)
+Stock.check_unique_stock_list	stock\\stock.py	/^    def check_unique_stock_list(self):$/;"	kind:m	line:39	class:Stock	access:public	signature:(self)
+Stock.del_code	stock\\stock.py	/^    def del_code(self, code):$/;"	kind:m	line:26	class:Stock	access:public	signature:(self, code)
+Stock.get_all_stock_list_form_network	stock\\stock.py	/^    def get_all_stock_list_form_network(self):$/;"	kind:m	line:58	class:Stock	access:public	signature:(self)
+Stock.get_hist_data	stock\\stock.py	/^    def get_hist_data(self, code, start_time, end_time):$/;"	kind:m	line:47	class:Stock	access:public	signature:(self, code, start_time, end_time)
+Stock.get_real_data	stock\\stock.py	/^    def get_real_data(self, code):$/;"	kind:m	line:53	class:Stock	access:public	signature:(self, code)
+Stock.get_stock_list	stock\\stock.py	/^    def get_stock_list(self):$/;"	kind:m	line:18	class:Stock	access:public	signature:(self)
+Stock.get_stock_obj	stock\\stock.py	/^    def get_stock_obj(self, code):$/;"	kind:m	line:33	class:Stock	access:public	signature:(self, code)
+Stock.run	stock\\stock.py	/^    def run(self):$/;"	kind:m	line:61	class:Stock	access:public	signature:(self)
+StockData	stock\\stockdata.py	/^class StockData():$/;"	kind:c	line:4	inherits:	access:public
+StockData.__init__	stock\\stockdata.py	/^    def __init__(self, code, name=''):$/;"	kind:m	line:5	class:StockData	access:public	signature:(self, code, name='')
+StockData.get_data	stock\\stockdata.py	/^    def get_data(self):$/;"	kind:m	line:22	class:StockData	access:public	signature:(self)
+StockData.get_flush_time	stock\\stockdata.py	/^    def get_flush_time(self):$/;"	kind:m	line:61	class:StockData	access:public	signature:(self)
+StockData.is_data_flush	stock\\stockdata.py	/^    def is_data_flush(self):$/;"	kind:m	line:58	class:StockData	access:public	signature:(self)
+StockData.set_data	stock\\stockdata.py	/^    def set_data(self, **kw):$/;"	kind:m	line:36	class:StockData	access:public	signature:(self, **kw)
+StockData.set_flush_time	stock\\stockdata.py	/^    def set_flush_time(self, time=''):$/;"	kind:m	line:64	class:StockData	access:public	signature:(self, time='')
+StockList	stock\\stocklist.py	/^class StockList():$/;"	kind:c	line:5	inherits:	access:public
+StockList.__init__	stock\\stocklist.py	/^    def __init__(self):$/;"	kind:m	line:6	class:StockList	access:public	signature:(self)
+StockList.get_all_stock_list	stock\\stocklist.py	/^    def get_all_stock_list(self):$/;"	kind:m	line:12	class:StockList	access:public	signature:(self)
+StockList.run_monitor	stock\\stocklist.py	/^    def run_monitor(self, sk_list):$/;"	kind:m	line:9	class:StockList	access:public	signature:(self, sk_list)
+__init__	crawler\\download.py	/^    def __init__(self, url, data=None, params=None, encoding='utf-8'):$/;"	kind:m	line:26	class:Download	access:public	signature:(self, url, data=None, params=None, encoding='utf-8')
+__init__	crawler\\manager.py	/^    def __init__(self, stock_objs):$/;"	kind:m	line:16	class:CrawlerManager	access:public	signature:(self, stock_objs)
+__init__	crawler\\parse.py	/^    def __init__(self, html, encoding='utf-8'):$/;"	kind:m	line:20	class:Parser	access:public	signature:(self, html, encoding='utf-8')
+__init__	data\\data.py	/^    def __init__(self, file = ''):$/;"	kind:m	line:14	class:Data	access:public	signature:(self, file = '')
+__init__	stock\\stock.py	/^    def __init__(self, *stocks):$/;"	kind:m	line:10	class:Stock	access:public	signature:(self, *stocks)
+__init__	stock\\stockdata.py	/^    def __init__(self, code, name=''):$/;"	kind:m	line:5	class:StockData	access:public	signature:(self, code, name='')
+__init__	stock\\stocklist.py	/^    def __init__(self):$/;"	kind:m	line:6	class:StockList	access:public	signature:(self)
+add_code	stock\\stock.py	/^    def add_code(self, code):$/;"	kind:m	line:21	class:Stock	access:public	signature:(self, code)
+add_new_urls	crawler\\manager.py	/^    def add_new_urls(self, url):$/;"	kind:m	line:20	class:CrawlerManager	access:public	signature:(self, url)
+check_unique_stock_list	stock\\stock.py	/^    def check_unique_stock_list(self):$/;"	kind:m	line:39	class:Stock	access:public	signature:(self)
+console	tools\\log.py	/^console = logging.StreamHandler()$/;"	kind:v	line:12	access:public
+data	crawler\\download.py	/^    data = test.get_html_text()$/;"	kind:v	line:76	access:public
+data_url	main.py	/^data_url = 'http:\/\/www.sse.com.cn\/js\/common\/ssesuggestdata.js'$/;"	kind:v	line:22	access:public
+del_code	stock\\stock.py	/^    def del_code(self, code):$/;"	kind:m	line:26	class:Stock	access:public	signature:(self, code)
+formatter	tools\\log.py	/^formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')$/;"	kind:v	line:9	access:public
+get_all_stock_list	stock\\stocklist.py	/^    def get_all_stock_list(self):$/;"	kind:m	line:12	class:StockList	access:public	signature:(self)
+get_all_stock_list_form_network	stock\\stock.py	/^    def get_all_stock_list_form_network(self):$/;"	kind:m	line:58	class:Stock	access:public	signature:(self)
+get_all_stock_list_from_network	main.py	/^def get_all_stock_list_from_network():$/;"	kind:f	line:113	access:public	signature:()
+get_contents	crawler\\parse.py	/^    def get_contents(self, mark, attr='', restr=''):$/;"	kind:m	line:34	class:Parser	access:public	signature:(self, mark, attr='', restr='')
+get_data	stock\\stockdata.py	/^    def get_data(self):$/;"	kind:m	line:22	class:StockData	access:public	signature:(self)
+get_file_data	data\\data.py	/^    def get_file_data(self, file):$/;"	kind:m	line:23	class:Data	access:public	signature:(self, file)
+get_flush_time	stock\\stockdata.py	/^    def get_flush_time(self):$/;"	kind:m	line:61	class:StockData	access:public	signature:(self)
+get_hist_data	stock\\stock.py	/^    def get_hist_data(self, code, start_time, end_time):$/;"	kind:m	line:47	class:Stock	access:public	signature:(self, code, start_time, end_time)
+get_html_text	crawler\\download.py	/^    def get_html_text(self, set_url=''):$/;"	kind:m	line:36	class:Download	access:public	signature:(self, set_url='')
+get_list_from_js	main.py	/^def get_list_from_js():$/;"	kind:f	line:101	access:public	signature:()
+get_list_from_tencent	main.py	/^def get_list_from_tencent():$/;"	kind:f	line:59	access:public	signature:()
+get_logger	tools\\log.py	/^def get_logger():$/;"	kind:f	line:19	access:public	signature:()
+get_new_urls	crawler\\manager.py	/^    def get_new_urls(self):$/;"	kind:m	line:28	class:CrawlerManager	access:public	signature:(self)
+get_real_data	stock\\stock.py	/^    def get_real_data(self, code):$/;"	kind:m	line:53	class:Stock	access:public	signature:(self, code)
+get_response_code	crawler\\download.py	/^    def get_response_code(self):$/;"	kind:m	line:66	class:Download	access:public	signature:(self)
+get_stock_data	main.py	/^def get_stock_data(code):$/;"	kind:f	line:26	access:public	signature:(code)
+get_stock_list	data\\data.py	/^    def get_stock_list(self):$/;"	kind:m	line:39	class:Data	access:public	signature:(self)
+get_stock_list	stock\\stock.py	/^    def get_stock_list(self):$/;"	kind:m	line:18	class:Stock	access:public	signature:(self)
+get_stock_obj	stock\\stock.py	/^    def get_stock_obj(self, code):$/;"	kind:m	line:33	class:Stock	access:public	signature:(self, code)
+handler	tools\\log.py	/^handler = logging.FileHandler("log.txt")$/;"	kind:v	line:6	access:public
+has_new_urls	crawler\\manager.py	/^    def has_new_urls(self):$/;"	kind:m	line:24	class:CrawlerManager	access:public	signature:(self)
+headers	crawler\\download.py	/^headers={$/;"	kind:v	line:20	access:public
+is_data_flush	stock\\stockdata.py	/^    def is_data_flush(self):$/;"	kind:m	line:58	class:StockData	access:public	signature:(self)
+is_has_file	data\\data.py	/^    def is_has_file(self, file):$/;"	kind:m	line:17	class:Data	access:public	signature:(self, file)
+log	crawler\\download.py	/^    log = log.get_logger()$/;"	kind:v	line:16	access:public
+log	crawler\\manager.py	/^log = log.get_logger()$/;"	kind:v	line:12	access:public
+log	crawler\\parse.py	/^    log = log.get_logger()$/;"	kind:v	line:15	access:public
+log	main.py	/^log = log.get_logger()$/;"	kind:v	line:14	access:public
+logger	tools\\log.py	/^logger = logging.getLogger(__name__)$/;"	kind:v	line:4	access:public
+new_urls_size	crawler\\manager.py	/^    def new_urls_size(self):$/;"	kind:m	line:32	class:CrawlerManager	access:public	signature:(self)
+old_urls_size	crawler\\manager.py	/^    def old_urls_size(self):$/;"	kind:m	line:36	class:CrawlerManager	access:public	signature:(self)
+parse_stock_code	crawler\\parse.py	/^    def parse_stock_code(self, re_pattern=''):$/;"	kind:m	line:24	class:Parser	access:public	signature:(self, re_pattern='')
+process_func	main.py	/^def process_func(url, queue):$/;"	kind:f	line:47	access:public	signature:(url, queue)
+run	crawler\\manager.py	/^    def run(self):$/;"	kind:m	line:39	class:CrawlerManager	access:public	signature:(self)
+run	stock\\stock.py	/^    def run(self):$/;"	kind:m	line:61	class:Stock	access:public	signature:(self)
+run_monitor	stock\\stocklist.py	/^    def run_monitor(self, sk_list):$/;"	kind:m	line:9	class:StockList	access:public	signature:(self, sk_list)
+save_data_to_file	data\\data.py	/^    def save_data_to_file(self, data, file=''):$/;"	kind:m	line:31	class:Data	access:public	signature:(self, data, file='')
+save_stock_list_to_file	main.py	/^def save_stock_list_to_file(file, data):$/;"	kind:f	line:109	access:public	signature:(file, data)
+set_data	stock\\stockdata.py	/^    def set_data(self, **kw):$/;"	kind:m	line:36	class:StockData	access:public	signature:(self, **kw)
+set_flush_time	stock\\stockdata.py	/^    def set_flush_time(self, time=''):$/;"	kind:m	line:64	class:StockData	access:public	signature:(self, time='')
+sina_get_stock_url	main.py	/^sina_get_stock_url = 'http:\/\/hq.sinajs.cn\/list='$/;"	kind:v	line:24	access:public
+sk_list	main.py	/^    sk_list = stock_list_setup()$/;"	kind:v	line:142	access:public
+stock_data	main.py	/^stock_data = Data('.\/file.csv')$/;"	kind:v	line:17	access:public
+stock_list_setup	main.py	/^def stock_list_setup():$/;"	kind:f	line:128	access:public	signature:()
+stock_manager	main.py	/^stock_manager = Stock()$/;"	kind:v	line:16	access:public
+stock_monitor_run	main.py	/^def stock_monitor_run():$/;"	kind:f	line:119	access:public	signature:()
+tencent_url	main.py	/^tencent_url = 'https:\/\/stock.gtimg.cn\/data\/index.php?'$/;"	kind:v	line:20	access:public
+test	crawler\\download.py	/^    test = Download('https:\/\/www.baidu.com')$/;"	kind:v	line:75	access:public
+tools_dir	crawler\\download.py	/^    tools_dir = os.path.abspath('..\/tools')$/;"	kind:v	line:13	access:public
+tools_dir	crawler\\manager.py	/^tools_dir = os.path.abspath('..\/tools')$/;"	kind:v	line:9	access:public
+tools_dir	crawler\\parse.py	/^    tools_dir = os.path.abspath('..\/tools')$/;"	kind:v	line:12	access:public
