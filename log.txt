@@ -751,3 +751,83 @@
 2020-07-12 19:29:56,338 - INFO - 中国铝业:3.370
 2020-07-12 19:29:56,339 - INFO - 江阴银行:4.550
 2020-07-12 19:29:56,339 - INFO - 集友股份:44.370
+2020-07-15 21:21:13,363 - INFO - run main
+2020-07-15 21:21:13,364 - INFO - start to setup stock list
+2020-07-15 21:21:16,903 - INFO - XD金晶科:3.790
+2020-07-15 21:21:16,913 - INFO - 中铝国际:4.340
+2020-07-15 21:21:16,918 - INFO - 中孚信息:63.050
+2020-07-15 21:21:16,921 - INFO - 金城医药:37.580
+2020-07-15 21:21:16,923 - INFO - 亿纬锂能:53.220
+2020-07-15 21:21:16,927 - INFO - 中国长城:15.990
+2020-07-15 21:21:16,938 - INFO - 万兴科技:82.220
+2020-07-15 21:21:16,942 - INFO - 海联金汇:6.650
+2020-07-15 21:21:16,948 - INFO - 日丰股份:30.370
+2020-07-15 21:21:16,951 - INFO - 中国铝业:3.370
+2020-07-15 21:21:16,955 - INFO - 江阴银行:4.420
+2020-07-15 21:21:16,964 - INFO - 集友股份:38.570
+2020-07-15 21:21:46,357 - INFO - run main
+2020-07-15 21:21:46,360 - INFO - start to setup stock list
+2020-07-15 21:22:20,875 - INFO - run main
+2020-07-15 21:22:20,876 - INFO - start to setup stock list
+2020-07-15 21:22:47,882 - INFO - run main
+2020-07-15 21:22:47,883 - INFO - start to setup stock list
+2020-07-15 21:22:48,556 - INFO - XD金晶科:3.790
+2020-07-15 21:22:48,557 - INFO - 中铝国际:4.340
+2020-07-15 21:24:30,416 - INFO - run main
+2020-07-15 21:24:30,417 - INFO - start to setup stock list
+2020-07-15 21:47:45,368 - INFO - run main
+2020-07-15 21:47:45,369 - INFO - start to setup stock list
+2020-07-15 21:49:16,004 - INFO - run main
+2020-07-15 21:49:16,005 - INFO - start to setup stock list
+2020-07-15 21:50:47,654 - INFO - run main
+2020-07-15 21:50:47,656 - INFO - start to setup stock list
+2020-07-15 21:52:18,395 - INFO - run main
+2020-07-15 21:52:18,395 - INFO - start to setup stock list
+2020-07-15 21:53:00,621 - INFO - run main
+2020-07-15 21:53:00,623 - INFO - start to setup stock list
+2020-07-15 21:58:05,115 - INFO - run main
+2020-07-15 21:58:05,117 - INFO - start to setup stock list
+2020-07-15 21:58:23,938 - INFO - run main
+2020-07-15 21:58:23,938 - INFO - start to setup stock list
+2020-07-15 22:11:40,316 - INFO - run main
+2020-07-15 22:11:40,318 - INFO - start to setup stock list
+2020-07-15 22:11:57,653 - INFO - run main
+2020-07-15 22:11:57,655 - INFO - start to setup stock list
+2020-07-15 22:32:15,150 - INFO - run main
+2020-07-15 22:32:15,152 - INFO - start to setup stock list
+2020-07-15 22:32:43,813 - INFO - run main
+2020-07-15 22:32:43,814 - INFO - start to setup stock list
+2020-07-15 22:33:07,180 - INFO - run main
+2020-07-15 22:33:07,182 - INFO - start to setup stock list
+2020-07-15 22:33:37,513 - INFO - run main
+2020-07-15 22:33:37,515 - INFO - start to setup stock list
+2020-07-15 22:34:23,832 - INFO - run main
+2020-07-15 22:34:23,834 - INFO - start to setup stock list
+2020-07-15 22:35:00,272 - INFO - run main
+2020-07-15 22:35:00,274 - INFO - start to setup stock list
+2020-07-15 22:36:10,073 - INFO - run main
+2020-07-15 22:36:10,074 - INFO - start to setup stock list
+2020-07-15 22:36:25,643 - INFO - run main
+2020-07-15 22:36:25,646 - INFO - start to setup stock list
+2020-07-15 22:42:07,161 - INFO - run main
+2020-07-15 22:42:07,163 - INFO - start to setup stock list
+2020-07-15 22:42:26,402 - INFO - run main
+2020-07-15 22:42:26,403 - INFO - start to setup stock list
+2020-07-15 22:44:10,948 - INFO - run main
+2020-07-15 22:44:10,950 - INFO - start to setup stock list
+2020-07-15 22:44:49,378 - INFO - run main
+2020-07-15 22:44:49,379 - INFO - start to setup stock list
+2020-07-15 23:14:13,370 - INFO - run main
+2020-07-15 23:14:13,372 - INFO - start to setup stock list
+2020-07-15 23:14:30,767 - INFO - run main
+2020-07-15 23:14:30,769 - INFO - start to setup stock list
+2020-07-15 23:15:18,107 - INFO - run main
+2020-07-15 23:15:18,108 - INFO - start to setup stock list
+2020-07-15 23:23:17,625 - INFO - run main
+2020-07-15 23:23:17,627 - INFO - start to setup stock list
+2020-07-15 23:23:55,259 - INFO - run main
+2020-07-15 23:23:55,261 - INFO - start to setup stock list
+2020-07-15 23:24:41,401 - INFO - run main
+2020-07-15 23:24:41,402 - INFO - start to setup stock list
+2020-07-15 23:27:08,653 - INFO - run main
+2020-07-15 23:27:08,654 - INFO - start to setup stock list

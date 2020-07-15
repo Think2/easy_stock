@@ -7,14 +7,18 @@ import multiprocessing
 
 from crawler.download import Download
 from crawler.parse import Parser
-from stock.stock import Stock 
+from stock.stock import Stock
 from data.data import Data
+import stock.stock_real_time as srt
+import stock.stock_minutes as sm
+import stock.stock_day as sd
+import stock.stock_update as sup
 
 from tools import log
 log = log.get_logger()
 
 stock_manager = Stock()
-stock_data = Data('./file.csv')
+stock_data = Data('./data_csv/file.csv')
 
 # 腾讯股票列表信息
 tencent_url = 'https://stock.gtimg.cn/data/index.php?'
@@ -112,7 +116,7 @@ def save_stock_list_to_file(file, data):
 def get_all_stock_list_from_network():
     lst = get_list_from_tencent()
     #lst = get_list_from_js()
-    save_stock_list_to_file('./network.csv', lst)
+    save_stock_list_to_file('./data_csv/network.csv', lst)
     return lst
 
 def stock_monitor_run():
@@ -140,6 +144,12 @@ if __name__=='__main__':
     #get_all_stock_list_from_network()
     sk_list = stock_list_setup()
     #stock_monitor_run()
+    lst = ['sh000001', 'sh601068']
+    #print(rt.get_real_time_data(lst))
+    #print(sm.get_minutes_data('sh000001', 60))
+    #print(sd.get_day_data('sh000001', 'month', 10))
+    sup.update_all_data()
+    exit()
     if len(sk_list) > 0:
         while True:
             stock_monitor_run()
@@ -147,7 +157,7 @@ if __name__=='__main__':
                 data = sk.get_data()
                 log.info(data['name']+':'+data['cur_price'])
                 pass
-            time.sleep(1)
+            time.sleep(3)
 
 
 

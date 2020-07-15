@@ -2,6 +2,12 @@
 from .stockdata import StockData
 from .stocklist import StockList
 
+import os
+import sys
+dst_dir = os.path.abspath('.')
+sys.path.append(dst_dir)
+import crawler.download 
+
 class Stock():
     '''stock api midle SDK, to get some data from ohter api
        1. get prce of (day, minute...)
