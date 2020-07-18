@@ -8,14 +8,13 @@ import requests
 import re
 from bs4 import BeautifulSoup
 
-if __name__=='__main__':
-    import sys
-    tools_dir = os.path.abspath('../tools')
-    sys.path.append(tools_dir)
-    import log
-    log = log.get_logger()
-else:
-    from tools import log
+import os
+import sys
+dst_dir = os.path.abspath('.')
+sys.path.append(dst_dir)
+from tools import log
+log = log.get_logger()
+
 
 headers={
     'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'
@@ -58,8 +57,8 @@ class Download():
             #return req.content.decode(encoding, 'ignore').encode('utf-8', 'ignore') 
             #print(req.content.decode(encoding, 'ignore'))
             return req.content.decode(encoding, 'ignore')
-        except Exception as e:
-            print(e)
+        except (Exception, ConnectionError) as e:
+            log.error(e)
             log.error('get rul %s fail, code : %d' % (self.url, self.get_response_code()))
             return ''
 

@@ -32,6 +32,8 @@ def get_stock_data(code):
     sk_data = dict()
     req = Download(url)
     text = req.get_html_text()
+    if text=='':
+        return None
     results = re.findall(r'"(.*?)"', text, re.S)
     datas = results[0]
     data = datas.split(',')
@@ -125,6 +127,9 @@ def stock_monitor_run():
     #stock_manager.run()
     for obj in stock_manager.get_stock_list():
         data = get_stock_data(obj.code)
+        if data is None:
+            time.sleep(5)
+            continue
         sk_obj = stock_manager.get_stock_obj(obj.code) 
         sk_obj.set_data(data)
 
