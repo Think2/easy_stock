@@ -30,7 +30,7 @@ class StockData():
         d.update({'low':self.low})
         d.update({'volume':self.volume})
         d.update({'turnover':self.turnover})
-        d.update({'change':self.p_change})
+        d.update({'p_change':self.p_change})
         return d 
 
     def set_data(self, kw):
@@ -51,8 +51,8 @@ class StockData():
             self.volume = kw['volume']
         if 'turnover' in kw:
             self.turnover = kw['turnover']
-        if 'change' in kw:
-            self.change = kw['change']
+        if 'p_change' in kw:
+            self.p_change = kw['p_change']
         if 'flush_time' in kw:
             self.flush_time = kw['flush_time']
 

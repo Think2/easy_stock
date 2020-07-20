@@ -46,6 +46,11 @@ def get_stock_data(code):
     sk_data.update({'number': data[8]})
     sk_data.update({'money': data[9]})
     sk_data.update({'flush_time': data[30]+' '+data[31]})
+    cur = float(data[3])
+    close = float(data[2])
+    p_change = 100*(cur - close)/close
+    p_change = round(p_change, 2) 
+    sk_data.update({'p_change': p_change})
     return sk_data
 
 
@@ -153,15 +158,14 @@ if __name__=='__main__':
     #print(rt.get_real_time_data(lst))
     #print(sm.get_minutes_data('sh000001', 60))
     #print(sd.get_day_data('sh000001', 'month', 10))
-    sup.update_all_data()
-    exit()
+    #sup.update_all_data()
+    #exit()
     if len(sk_list) > 0:
         while True:
             stock_monitor_run()
             for sk in sk_list:
                 data = sk.get_data()
-                log.info(data['name']+':'+data['cur_price'])
-                pass
+                log.info(data['name']+':'+data['cur_price']+'  ' + str(data['p_change']))
             time.sleep(3)
 
 
