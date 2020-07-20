@@ -1,6 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from crawler import download
+import os
+import sys
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+dst_dir = os.path.dirname(cur_dir)
+sys.path.append(cur_dir)
+sys.path.append(dst_dir)
+
 
 class StockList():
     def __init__(self):

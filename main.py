@@ -154,7 +154,7 @@ if __name__=='__main__':
     #get_all_stock_list_from_network()
     sk_list = stock_list_setup()
     #stock_monitor_run()
-    lst = ['sh000001', 'sh601068']
+    #lst = ['sh000001', 'sh601068']
     #print(rt.get_real_time_data(lst))
     #print(sm.get_minutes_data('sh000001', 60))
     #print(sd.get_day_data('sh000001', 'month', 10))

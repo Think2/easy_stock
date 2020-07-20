@@ -5,6 +5,12 @@
 # 数据的读取、保存 
 # 默认列表数据
 '''
+import os
+import sys
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+dst_dir = os.path.dirname(cur_dir)
+sys.path.append(cur_dir)
+sys.path.append(dst_dir)
 
 import os
 import csv

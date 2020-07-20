@@ -1,12 +1,18 @@
 # -*- coding: utf-8 -*-
-from .stockdata import StockData
-from .stocklist import StockList
 
 import os
 import sys
-dst_dir = os.path.abspath('.')
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+dst_dir = os.path.dirname(cur_dir)
+sys.path.append(cur_dir)
 sys.path.append(dst_dir)
-import crawler.download 
+
+import crawler.download as dl
+
+import stockdata as sd
+import stocklist as sl
+
+
 
 class Stock():
     '''stock api midle SDK, to get some data from ohter api
@@ -15,10 +21,10 @@ class Stock():
     '''
     def __init__(self, *stocks):
         self.stock_list = []
-        self.sk_list_obj = StockList()
+        self.sk_list_obj = sl.StockList()
         if len(stocks)>0:
             for code in stocks:
-                data = StockData(code)
+                data = sd.StockData(code)
                 self.stock_list.append(data)
 
     def get_stock_list(self):
@@ -26,7 +32,7 @@ class Stock():
     
     def add_code(self, code):
         print('add code: %s' % code)
-        data = StockData(code)
+        data = sd.StockData(code)
         self.stock_list.append(data)
 
     def del_code(self, code):
