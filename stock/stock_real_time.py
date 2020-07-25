@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-from .stockdata import StockData
-from .stocklist import StockList
+from stockdata import StockData
+from stocklist import StockList
 
 import os
 import sys
-dst_dir = os.path.abspath('.')
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+dst_dir = os.path.dirname(cur_dir)
+sys.path.append(cur_dir)
 sys.path.append(dst_dir)
+
 from crawler.download import Download
 
 import pandas as pd
@@ -23,11 +26,11 @@ sina_get_stock_url = 'http://hq.sinajs.cn/list='
 def get_real_time_data(codes):
     # =====抓取数据
     url = sina_get_stock_url + ','.join(codes)
-    print(url)
-    url = sina_get_stock_url + ','.join(['sh000001', 'sh601068'])
+    #url = sina_get_stock_url + ','.join(['sh000001', 'sh601068'])
+    #print(url)
     req = Download(url)
     content = req.get_html_text()
-    print(content)
+    #print(content)
     # =====将数据转换成DataFrame
     content = content.strip()  # 去掉文本前后的空格、回车等
     data_line = content.split('\n')  # 每行是一个股票的数据
@@ -35,17 +38,24 @@ def get_real_time_data(codes):
     df = pd.DataFrame(data_line, dtype='float')
     # =====对DataFrame进行整理
     df[0] = df[0].str.split('="')
-    df['stock_code'] = df[0].str[0].str.strip()
-    df['stock_name'] = df[0].str[-1].str.strip()
-    df['candle_end_time'] = df[30] + ' ' + df[31]  # 股票市场的K线，是普遍以当跟K线结束时间来命名的
-    df['candle_end_time'] = pd.to_datetime(df['candle_end_time'])
-    rename_dict = {1: 'open', 2: 'pre_close', 3: 'close', 4: 'high', 5: 'low', 6: 'buy1', 7: 'sell1',
+    df['code'] = df[0].str[0].str.strip()
+    df['name'] = df[0].str[-1].str.strip()
+    df['cur_price'] = df[3]
+    df['date'] = df[30] + ' ' + df[31]  # 股票市场的K线，是普遍以当跟K线结束时间来命名的
+    df['date'] = pd.to_datetime(df['date'])
+    rename_dict = {1: 'open', 2: 'preclose', 3: 'close', 4: 'high', 5: 'low', 6: 'buy1', 7: 'sell1',
                8: 'amount', 9: 'volume', 32: 'status'}
     # 其中amount单位是股，volume单位是元
     df.rename(columns=rename_dict, inplace=True)
     df['status'] = df['status'].astype(str).str.strip('";')
-    df = df[['stock_code', 'stock_name', 'candle_end_time', 'open', 'high', 'low', 'close', 'pre_close', 'amount', 'volume',
+    df = df[['code', 'name', 'date', 'open', 'high', 'low', 'close', 'preclose', 'amount', 'volume',
              'buy1', 'sell1', 'status']]
     return df
+
+if __name__=='__main__':
+    print('test get real time data')
+    codes = ['sh000001', 'sh601608']
+    df = get_real_time_data(codes)
+    print(df)
     
     

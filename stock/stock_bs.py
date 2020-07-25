@@ -1,13 +1,22 @@
-import baostock as bs
-import pandas as pd
+# -*- coding: utf-8 -*-
+
 import sys
 import os
+cur_dir = os.path.dirname(os.path.abspath(__file__))
+dst_dir = os.path.dirname(cur_dir)
+sys.path.append(cur_dir)
+sys.path.append(dst_dir)
+
+import baostock as bs
+import pandas as pd
 import multiprocessing
 import threading
+import datetime
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from datetime import datetime
+from tools import log
+log = log.get_logger()
 
 def all_stock_list():
     #### 登陆系统 ####
@@ -17,6 +26,10 @@ def all_stock_list():
     print('login respond  error_msg:'+lg.error_msg)
 
     #### 获取证券信息 ####
+    date=datetime.datetime.now()
+    print(date)
+    start_date = (date+datetime.timedelta(days=-5)).strftime('%Y-%m-%d')
+
     rs = bs.query_all_stock(day='2020-07-16')
     print('query_all_stock respond error_code:'+rs.error_code)
     print('query_all_stock respond  error_msg:'+rs.error_msg)
@@ -66,7 +79,7 @@ def download_one_data(args, start_date='', end_date='', queue=None):
     #bs.logout()
     return result
 
-def download_data(code_list, save_path, start_date, end_date):
+def download_data(code_list, start_date, end_date):
     #### 登陆系统 ####
     lg = bs.login()
     # 显示登陆返回信息
@@ -102,11 +115,6 @@ def download_data(code_list, save_path, start_date, end_date):
             
     for future in as_completed(future_list):
         result = future.result() # 获取任务结果
-        name = save_path+('%s' % result['code'][1]) + '.csv'
-        if os.path.exists(name):
-            result.to_csv(name, header=None, index=False, mode='a', encoding='gbk')
-        else:
-            result.to_csv(name, encoding="gbk", index=False)
         data_df_list.append(result)
         #print("%s get result : %s" % (threading.current_thread().getName(), result))
     '''
@@ -114,6 +122,7 @@ def download_data(code_list, save_path, start_date, end_date):
     for code in code_list:
         data = download_one_data(code, start_date, end_date)
         data_df_list.append(data)
+        time.sleep(0.1)
     
     #### 登出系统 ####
     bs.logout()
@@ -121,20 +130,26 @@ def download_data(code_list, save_path, start_date, end_date):
     #print(data_df_list)
     return data_df_list
 
-def update_stock_list(code_list, start_date='', end_date=''):
-    pass
-
 if __name__ == '__main__':
     # 获取指定日期全部股票的日K线数据
     #df = all_stock_list()
     #df.to_csv('./all_list.csv', encoding="gbk", index=False)
     #exit()
-    codes = list(pd.read_csv('all_list_filter.csv', encoding='gbk')['code'])
-    df_list = download_data(codes, './bs_data/', '2019-07-01', '2020-07-18')
+    #codes = list(pd.read_csv('all_list_filter.csv', encoding='gbk')['code'])
+    codes = list(pd.read_csv('test.csv', encoding='gbk')['code'])
+    df_list = download_data(codes, '2020-07-18', '2020-07-21')
     for df in df_list:
-        base = './bs_data/'
-        name = base+('%s' % df['code'][1]) + '.csv'
-        df.to_csv(name, encoding="gbk", index=False)
+        try:
+            base = './bs_data/'
+            name = base+('%s' % df['code'][1]) + '.csv'
+            if os.path.exists(name):
+                df.to_csv(name, encoding="gbk", mode='a', index=False, header=False)
+            else:
+                df.to_csv(name, encoding="gbk", index=False)
+        except (Exception, KeyError, IndexError) as e:
+            log.error(e)
+            log.error('write data fail, code:'+df['code'][1])
+            continue
     
 
 
