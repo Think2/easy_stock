@@ -31,7 +31,8 @@ class Data():
         with open(file) as f:
             reader = csv.reader(f)
             for row in reader:
-                data.append(row[0].strip())
+                #data.append(row[0].strip())
+                data.append(row)
         return data
 
     def save_data_to_file(self, data, file=''):

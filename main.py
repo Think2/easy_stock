@@ -4,6 +4,7 @@ import time
 import re
 import urllib.parse
 import multiprocessing
+from threading import Thread
 
 from crawler.download import Download
 from crawler.parse import Parser
@@ -126,8 +127,8 @@ def get_all_stock_list_from_network():
     save_stock_list_to_file('./data_csv/network.csv', lst)
     return lst
 
-def stock_monitor_run():
-    #log.info('start to run stock nonitor')
+def stock_monitor_run(sk_list):
+    log.info('start to run stock nonitor')
     # 启动列表监控
     #stock_manager.run()
     for obj in stock_manager.get_stock_list():
@@ -138,35 +139,61 @@ def stock_monitor_run():
         sk_obj = stock_manager.get_stock_obj(obj.code) 
         sk_obj.set_data(data)
 
+    if len(sk_list) > 0:
+        while True:
+            for sk in sk_list:
+                data = sk.get_data()
+                log.info(data['name']+':'+data['cur_price']+'  ' + str(data['p_change'])+'  ' + str(data['monitor_price']))
+            time.sleep(3)
+    log.info('%s run end' % stock_monitor_run.__name__)
+
 def stock_list_setup():
     log.info('start to setup stock list')
     # 检查本地股票列表信息
     stock_list = stock_data.get_stock_list()
     if stock_list is not None:
         # 根据列表信息，创建股票对象
-        for code in stock_list:
-            stock_manager.add_code(code)
+        for data in stock_list:
+            stock_manager.add_code(data[0])
+            sk_data = stock_manager.get_stock_obj(data[0])
+            if len(data)>1:
+                sk_data.set_monitor_price(float(data[1]))
+
     # 返回股票对象列表信息
     return stock_manager.stock_list
 
+def create_thread(func, args=None):
+    if args is None:
+        t = Thread(target=func)
+    else:
+        t = Thread(target=func, args=args)
+    t.start()
+    return t
+
 if __name__=='__main__':
     log.info('run main')
+    thread_lst = []
     #get_all_stock_list_from_network()
     sk_list = stock_list_setup()
-    #stock_monitor_run()
     #lst = ['sh000001', 'sh601068']
     #print(rt.get_real_time_data(lst))
     #print(sm.get_minutes_data('sh000001', 60))
     #print(sd.get_day_data('sh000001', 'month', 10))
     #sup.update_all_data()
     #exit()
-    if len(sk_list) > 0:
-        while True:
-            stock_monitor_run()
-            for sk in sk_list:
-                data = sk.get_data()
-                log.info(data['name']+':'+data['cur_price']+'  ' + str(data['p_change']))
-            time.sleep(3)
+    # if len(sk_list) > 0:
+        # while True:
+            # stock_monitor_run()
+            # for sk in sk_list:
+                # data = sk.get_data()
+                # log.info(data['name']+':'+data['cur_price']+'  ' + str(data['p_change']))
+            # time.sleep(3)
+    thread_lst.append(create_thread(stock_monitor_run, (sk_list,)))
+    print('create thread end')
+    for i in thread_lst:
+        i.join()
+    print('wait end')
+
 
 
 

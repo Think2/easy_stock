@@ -5,7 +5,7 @@ class StockData():
     def __init__(self, code, name=''):
         self.code = code  #代码
         self.name = name  #名字
-        self.cur_price = 0  #当前价格
+        self.cur_price = 0.0  #当前价格
         self.open = 0     #开盘价
         self.close = 0    #收盘价
         self.preclose = 0 #昨收盘价
@@ -18,6 +18,7 @@ class StockData():
 
         self.is_flush = 0   #数据是否为最新
         self.flush_time = 0 #数据刷新时间
+        self.monitor_price = []
 
     def get_data(self):
         d = dict()
@@ -33,6 +34,7 @@ class StockData():
         d.update({'amount':self.amount})
         d.update({'turnover':self.turnover})
         d.update({'p_change':self.p_change})
+        d.update({'monitor_price':self.monitor_price})
         return d 
 
     def set_data(self, kw):
@@ -63,6 +65,16 @@ class StockData():
             self.p_change = p_change
         if 'flush_time' in kw:
             self.flush_time = kw['flush_time']
+
+    def set_monitor_price(self, price):
+        if self.cur_price < 0.001:
+            self.monitor_price = [price, price]
+            return None
+
+        if self.cur_price < price:
+            self.monitor_price = [0, price]
+        else:
+            self.monitor_price = [price, 0] 
 
     def is_data_flush(self):
         return self.is_flush
