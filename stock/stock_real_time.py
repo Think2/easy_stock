@@ -30,6 +30,8 @@ def get_real_time_data(codes):
     #print(url)
     req = Download(url)
     content = req.get_html_text()
+    if content == '':
+        return None
     #print(content)
     # =====将数据转换成DataFrame
     content = content.strip()  # 去掉文本前后的空格、回车等
@@ -40,7 +42,6 @@ def get_real_time_data(codes):
     df[0] = df[0].str.split('="')
     df['code'] = df[0].str[0].str.strip()
     df['name'] = df[0].str[-1].str.strip()
-    df['cur_price'] = df[3]
     df['date'] = df[30] + ' ' + df[31]  # 股票市场的K线，是普遍以当跟K线结束时间来命名的
     df['date'] = pd.to_datetime(df['date'])
     rename_dict = {1: 'open', 2: 'preclose', 3: 'close', 4: 'high', 5: 'low', 6: 'buy1', 7: 'sell1',

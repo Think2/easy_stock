@@ -7,6 +7,7 @@ dst_dir = os.path.dirname(cur_dir)
 sys.path.append(cur_dir)
 sys.path.append(dst_dir)
 
+import time
 import datetime
 import pandas as pd
 import crawler.download as dl
@@ -78,8 +79,23 @@ class Stock():
             data = df[df['code']==code]
             sk = self.get_stock_obj(code)
             if sk is not None:
-                sd.set_data(data)
+                sk.set_data(data)
         return sk.get_data()
+
+    def get_real_data_by_skobj(self, skobjs):
+        codes = []
+        for sk in skobjs:
+            codes.append(sk.code)
+        df = srt.get_real_time_data(codes)
+        if df is None:
+            return False 
+        for code in df['code']:
+            data = df[df['code']==code]
+            data = data.reset_index().T.to_dict()[0]
+            sk = self.get_stock_obj(code)
+            if sk is not None:
+                sk.set_data(data)
+        return True 
      
     def get_all_stock_list_form_network(self):
         df = sb.all_stock_list()

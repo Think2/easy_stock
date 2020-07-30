@@ -8,7 +8,7 @@ class StockData():
         self.cur_price = 0.0  #当前价格
         self.open = 0     #开盘价
         self.close = 0    #收盘价
-        self.preclose = 0 #昨收盘价
+        self.preclose = 0.0 #昨收盘价
         self.high = 0     #最高价
         self.low = 0      #最低价
         self.volume = 0   #成交量
@@ -43,10 +43,14 @@ class StockData():
             self.name = kw['name']
         if 'cur_price' in kw:
             self.cur_price = kw['cur_price']
+        if 'close' in kw:
+            self.cur_price = kw['close']
         if 'open' in kw:
             self.open = kw['open']
         if 'close' in kw:
             self.close = kw['close']
+        if 'preclose' in kw:
+            self.preclose = kw['preclose']
         if 'high' in kw:
             self.high = kw['high']
         if 'low' in kw:
@@ -60,7 +64,8 @@ class StockData():
         if 'p_change' in kw:
             self.p_change = kw['p_change']
         else:
-            p_change = 100*(self.cur_price - self.close)/self.close
+            #p_change = 100*(self.cur_price - self.close)/self.close
+            p_change = 100*(self.cur_price - self.preclose)/self.preclose
             p_change = round(p_change, 2) 
             self.p_change = p_change
         if 'flush_time' in kw:

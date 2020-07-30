@@ -131,6 +131,7 @@ def stock_monitor_run(sk_list):
     log.info('start to run stock nonitor')
     # 启动列表监控
     #stock_manager.run()
+    '''
     for obj in stock_manager.get_stock_list():
         data = get_stock_data(obj.code)
         if data is None:
@@ -138,12 +139,17 @@ def stock_monitor_run(sk_list):
             continue
         sk_obj = stock_manager.get_stock_obj(obj.code) 
         sk_obj.set_data(data)
+    '''
+    while True:
+        if stock_manager.get_real_data_by_skobj(sk_list) is False:
+            log.info('get data fail, sleep 5')
+            time.sleep(5)
+            continue
 
-    if len(sk_list) > 0:
-        while True:
+        if len(sk_list) > 0:
             for sk in sk_list:
                 data = sk.get_data()
-                log.info(data['name']+':'+data['cur_price']+'  ' + str(data['p_change'])+'  ' + str(data['monitor_price']))
+                log.info(data['name']+':'+str(data['cur_price'])+'  ' + str(data['p_change'])+'  ' + str(data['monitor_price']))
             time.sleep(3)
     log.info('%s run end' % stock_monitor_run.__name__)
 
@@ -188,6 +194,8 @@ if __name__=='__main__':
                 # data = sk.get_data()
                 # log.info(data['name']+':'+data['cur_price']+'  ' + str(data['p_change']))
             # time.sleep(3)
+    stock_monitor_run(sk_list)
+    exit(1)
     thread_lst.append(create_thread(stock_monitor_run, (sk_list,)))
     print('create thread end')
     for i in thread_lst:
