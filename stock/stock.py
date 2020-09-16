@@ -84,17 +84,32 @@ class Stock():
 
     def get_real_data_by_skobj(self, skobjs):
         codes = []
+        codes_future = []
         for sk in skobjs:
-            codes.append(sk.code)
+            if sk.code[:2]=='sh' or sk.code[:2]=='sz':
+                codes.append(sk.code)
+            else:
+                codes_future.append(sk.code)
         df = srt.get_real_time_data(codes)
-        if df is None:
+        df_future = srt.get_future_real_time_data(codes_future)
+
+        if df is None and df_future is None:
+            log.info('df is None') 
             return False 
-        for code in df['code']:
-            data = df[df['code']==code]
-            data = data.reset_index().T.to_dict()[0]
-            sk = self.get_stock_obj(code)
-            if sk is not None:
-                sk.set_data(data)
+        if df is not None: 
+            for code in df['code']:
+                data = df[df['code']==code]
+                data = data.reset_index().T.to_dict()[0]
+                sk = self.get_stock_obj(code)
+                if sk is not None:
+                    sk.set_data(data)
+        if df_future is not None:
+            for code in df_future['code']:
+                data = df_future[df_future['code']==code]
+                data = data.reset_index().T.to_dict()[0]
+                sk = self.get_stock_obj(code)
+                if sk is not None:
+                    sk.set_data(data)
         return True 
      
     def get_all_stock_list_form_network(self):

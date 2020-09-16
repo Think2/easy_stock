@@ -38,20 +38,38 @@ def get_stock_data(code):
     results = re.findall(r'"(.*?)"', text, re.S)
     datas = results[0]
     data = datas.split(',')
-    sk_data.update({'name': data[0]})
-    sk_data.update({'open': data[1]})
-    sk_data.update({'close': data[2]})
-    sk_data.update({'cur_price': data[3]})
-    sk_data.update({'high': data[4]})
-    sk_data.update({'low': data[5]})
-    sk_data.update({'number': data[8]})
-    sk_data.update({'money': data[9]})
-    sk_data.update({'flush_time': data[30]+' '+data[31]})
-    cur = float(data[3])
-    close = float(data[2])
-    p_change = 100*(cur - close)/close
-    p_change = round(p_change, 2) 
-    sk_data.update({'p_change': p_change})
+    if code[:2]=='sz' or code[:2]=='sh':
+        sk_data.update({'name': data[0]})
+        sk_data.update({'open': data[1]})
+        sk_data.update({'close': data[2]})
+        sk_data.update({'cur_price': data[3]})
+        sk_data.update({'high': data[4]})
+        sk_data.update({'low': data[5]})
+        sk_data.update({'number': data[8]})
+        sk_data.update({'money': data[9]})
+        sk_data.update({'flush_time': data[30]+' '+data[31]})
+        cur = float(data[3])
+        close = float(data[2])
+        p_change = 100*(cur - close)/close
+        p_change = round(p_change, 2) 
+        sk_data.update({'p_change': p_change})
+    else:
+        print(data)
+        sk_data.update({'name': data[0]})
+        sk_data.update({'open': data[2]})
+        sk_data.update({'close': data[5]})
+        sk_data.update({'cur_price': data[8]})
+        sk_data.update({'high': data[3]})
+        sk_data.update({'low': data[4]})
+        sk_data.update({'number': data[13]})
+        sk_data.update({'money': data[14]})
+        sk_data.update({'flush_time': data[17]})
+        cur = float(data[8])
+        close = float(data[5])
+        p_change = 100*(cur - close)/close
+        p_change = round(p_change, 2) 
+        sk_data.update({'p_change': p_change})
+
     return sk_data
 
 

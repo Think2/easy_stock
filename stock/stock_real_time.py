@@ -53,6 +53,35 @@ def get_real_time_data(codes):
              'buy1', 'sell1', 'status']]
     return df
 
+def get_future_real_time_data(codes):
+    # =====抓取数据
+    url = sina_get_stock_url + ','.join(codes)
+    #url = sina_get_stock_url + ','.join(['sh000001', 'sh601068'])
+    #print(url)
+    req = Download(url)
+    content = req.get_html_text()
+    if content == '':
+        return None
+    #print(content)
+    # =====将数据转换成DataFrame
+    content = content.strip()  # 去掉文本前后的空格、回车等
+    data_line = content.split('\n')  # 每行是一个股票的数据
+    data_line = [i.replace('var hq_str_', '').split(',') for i in data_line]
+    df = pd.DataFrame(data_line, dtype='float')
+    # =====对DataFrame进行整理
+    df[0] = df[0].str.split('="')
+    df['code'] = df[0].str[0].str.strip()
+    df['name'] = df[0].str[-1].str.strip()
+    df['date'] = df[17] # 股票市场的K线，是普遍以当跟K线结束时间来命名的
+    df['date'] = pd.to_datetime(df['date'])
+    rename_dict = {2: 'open', 5: 'preclose', 8: 'close', 3: 'high', 4: 'low', 6: 'buy1', 7: 'sell1',
+               11: 'amount', 12: 'volume'}
+    # 其中amount单位是股，volume单位是元
+    df.rename(columns=rename_dict, inplace=True)
+    df = df[['code', 'name', 'date', 'open', 'high', 'low', 'close', 'preclose', 'amount', 'volume',
+             'buy1', 'sell1']]
+    return df
+
 if __name__=='__main__':
     print('test get real time data')
     codes = ['sh000001', 'sh601608']
